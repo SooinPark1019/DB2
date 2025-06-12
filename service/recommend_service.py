@@ -168,13 +168,19 @@ def recommend_user_based():
         if denom1 == 0 or denom2 == 0:
             return 0.0
         return num / (denom1 * denom2)
-    # N x N 유사도
-    sims = [[0.0]*n for _ in range(n)]
+    
     for i in range(n):
         for j in range(m):
             if ratings[i][j] is None:
                 ratings[i][j] = dvd_avgs[j] if dvd_avgs[j] is not None else 0
-
+    # N x N 유사도
+    sims = [[0.0]*n for _ in range(n)]
+    for i in range(n):
+        for k in range(n):
+            if i == k:
+                sims[i][k] = 1.0
+            else:
+                sims[i][k] = cosine_sim(ratings[i], ratings[k])
     # 6. 추천 대상 DVD 후보 선정 (해당 유저가 평점 남기지 않은, age_limit 만족, 아직 평점 안 남긴 것)
     user_idx = uid2idx[user_id]
     rec_candidates = []
@@ -219,7 +225,7 @@ def recommend_user_based():
 
     # 9. DVD 정보 출력
     # DVD ID, 제목, 감독, 나이 제한, 예상 평점, (참고: 실제 평균 평점)
-    headers = ['id', 'title', 'director', 'age_limit', 'pred.rating', 'avg.rating', 'stock']
+    headers = ['id', 'title', 'director', 'age_limit', 'avg.rating', 'pred.rating', 'stock']
     rows = []
     meta = dvd_meta[top_j]
     rows.append([
@@ -227,8 +233,8 @@ def recommend_user_based():
         meta['d_title'],
         meta['d_name'],
         meta['age_limit'],
-        format_rating(top_pred),
-        format_rating(dvd_avgs[top_j]) if dvd_avgs[top_j] is not None else 'None',
+        format_rating(dvd_avgs[top_j]) if dvd_avgs[top_j] is not None else 'None',  # avg.rating 먼저
+        format_rating(top_pred),   # pred.rating 그다음
         meta['stock']
     ])
     print('-'*80)
