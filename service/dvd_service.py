@@ -1,7 +1,7 @@
 import csv
 from db import db_cursor
 from messages import *
-from util import to_positive_int, is_valid_age_limit, is_valid_rating, format_rating, print_table
+from util import to_positive_int, is_valid_age_limit, is_valid_rating, format_rating, print_table, validate_length
 
 DATA_PATH = "data.csv"
 
@@ -129,7 +129,6 @@ def initialize_database():
 
     print(MSG_DB_INIT)
 
-
 def print_DVDs():
     """
     모든 DVD 정보를 포맷에 맞게 출력
@@ -170,3 +169,43 @@ def print_DVDs():
     print('-' * 80)
     print_table(headers, rows)
     print('-' * 80)
+
+def insert_DVD():
+    title = input('DVD title: ').strip()
+    director = input('DVD director: ').strip()
+    age_limit = input('Age limit: ').strip()
+
+    # 1. 제목 길이 체크
+    if not validate_length(title, 1, 50):
+        print(ERR_TITLE_LENGTH)
+        return
+
+    # 2. 감독명 길이 체크
+    if not validate_length(director, 1, 30):
+        print(ERR_DIRECTOR_LENGTH)
+        return
+
+    # 3. 나이제한 숫자/범위 체크
+    if not is_valid_age_limit(age_limit):
+        print(ERR_AGE_LIMIT)
+        return
+    age_limit = int(age_limit)
+
+    # 4. (제목, 감독) 중복 체크
+    with db_cursor() as (conn, cursor):
+        cursor.execute(
+            "SELECT 1 FROM dvd WHERE d_title=%s AND d_name=%s",
+            (title, director)
+        )
+        if cursor.fetchone():
+            print(ERR_DVD_EXISTS.format(title, director))
+            return
+
+        # 5. INSERT
+        cursor.execute(
+            "INSERT INTO dvd (d_title, d_name, age_limit, stock, cumul_rent_cnt) VALUES (%s, %s, %s, 2, 0)",
+            (title, director, age_limit)
+        )
+        # 커밋은 context manager가 해줄 것
+
+    print(MSG_DVD_INSERT)
