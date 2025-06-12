@@ -171,8 +171,9 @@ def recommend_user_based():
     # N x N 유사도
     sims = [[0.0]*n for _ in range(n)]
     for i in range(n):
-        for k in range(n):
-            sims[i][k] = cosine_sim(ratings[i], ratings[k])
+        for j in range(m):
+            if ratings[i][j] is None:
+                ratings[i][j] = dvd_avgs[j] if dvd_avgs[j] is not None else 0
 
     # 6. 추천 대상 DVD 후보 선정 (해당 유저가 평점 남기지 않은, age_limit 만족, 아직 평점 안 남긴 것)
     user_idx = uid2idx[user_id]
