@@ -14,13 +14,14 @@ def print_users():
                 u.u_name,
                 u.u_age,
                 AVG(r.rating) AS avg_rating,
-                COUNT(b.b_id) AS cumul_rent_cnt
+                COUNT(DISTINCT b.b_id) AS cumul_rent_cnt
             FROM user u
             LEFT JOIN rate r ON u.u_id = r.u_id
             LEFT JOIN borrowing b ON u.u_id = b.u_id
             GROUP BY u.u_id, u.u_name, u.u_age
             ORDER BY u.u_id
         """)
+
         for row in cursor.fetchall():
             avg_rating = row['avg_rating']
             avg_rating_str = format_rating(avg_rating) if avg_rating is not None else 'None'
