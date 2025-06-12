@@ -33,11 +33,11 @@ def is_valid_rating(value: str) -> bool:
     except ValueError:
         return False
 
-def format_rating(rating: float | None) -> str:
+def format_rating(rating):
     if rating is None:
         return 'None'
+    rating = float(rating)  # decimal.Decimal도 float로 변환
     return f"{round(rating + 1e-8, 2):.2f}".rstrip('0').rstrip('.') if '.' in f"{rating:.2f}" else f"{rating:.2f}"
-    # (소수점 아래 0이면 안붙게)
 
 def print_table(headers, rows):
     col_widths = [max(len(str(x)) for x in [h]+[row[i] for row in rows]) for i, h in enumerate(headers)]

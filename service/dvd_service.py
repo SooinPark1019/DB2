@@ -24,7 +24,7 @@ def initialize_database():
         CREATE TABLE dvd (
             d_id INT PRIMARY KEY AUTO_INCREMENT,
             d_title VARCHAR(50) NOT NULL,
-            d_name VARCHAR(30) NOT NULL,
+            d_name VARCHAR(50) NOT NULL,
             age_limit INT NOT NULL,
             stock INT NOT NULL DEFAULT 2,
             cumul_rent_cnt INT NOT NULL DEFAULT 0,
@@ -70,7 +70,8 @@ def initialize_database():
         user_id_map = {}
 
         with open(DATA_PATH, encoding='utf-8') as f:
-            reader = csv.DictReader(f, delimiter='\t')
+            reader = csv.DictReader(f)
+            # print("DictReader fieldnames:", reader.fieldnames)
             for row in reader:
                 # DVD 데이터
                 d_id = int(row['d_id'])
@@ -84,6 +85,7 @@ def initialize_database():
                 # 평점
                 rating = int(row['rating'])
                 # dvd/user dict에 없으면 추가
+                # print("d_title :", d_title, "d_name :", d_name, "u_name :", u_name, "u_age :", u_age, "rating :", rating)
                 if d_id not in dvds:
                     dvds[d_id] = (d_title, d_name, age_limit)
                 if u_id not in users:
@@ -92,6 +94,7 @@ def initialize_database():
         # DVD 테이블 삽입 (순서대로 d_id 보장 위해)
         for d_id in sorted(dvds.keys()):
             d_title, d_name, age_limit = dvds[d_id]
+            # print("d_title :", d_title, "d_name :", d_name)
             cursor.execute(
                 "INSERT INTO dvd (d_title, d_name, age_limit, stock, cumul_rent_cnt) VALUES (%s, %s, %s, 2, 0)",
                 (d_title, d_name, age_limit)
@@ -108,17 +111,21 @@ def initialize_database():
             )
             user_id_map[u_id] = cursor.lastrowid
 
-        # 다시 파일 읽어서 rate 테이블 삽입
+        rate_map = {}
+
         with open(DATA_PATH, encoding='utf-8') as f:
-            reader = csv.DictReader(f, delimiter='\t')
+            reader = csv.DictReader(f)
             for row in reader:
                 old_did = int(row['d_id'])
                 old_uid = int(row['u_id'])
                 rating = int(row['rating'])
-                cursor.execute(
-                    "INSERT INTO rate (d_id, u_id, rating) VALUES (%s, %s, %s)",
-                    (dvd_id_map[old_did], user_id_map[old_uid], rating)
-                )
+                rate_map[(old_did, old_uid)] = rating
+
+        for (old_did, old_uid), rating in rate_map.items():
+            cursor.execute(
+                "INSERT INTO rate (d_id, u_id, rating) VALUES (%s, %s, %s)",
+                (dvd_id_map[old_did], user_id_map[old_uid], rating)
+            )
 
     print(MSG_DB_INIT)
 
