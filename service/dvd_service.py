@@ -1,7 +1,7 @@
 import csv
 from db import db_cursor
-from messages import MSG_DB_INIT
-from util import to_positive_int, is_valid_age_limit, is_valid_rating
+from messages import *
+from util import to_positive_int, is_valid_age_limit, is_valid_rating, format_rating, print_table
 
 DATA_PATH = "data.csv"
 
@@ -121,3 +121,45 @@ def initialize_database():
                 )
 
     print(MSG_DB_INIT)
+
+
+def print_DVDs():
+    """
+    모든 DVD 정보를 포맷에 맞게 출력
+    """
+    headers = ['id', 'title', 'director', 'age_limit', 'avg.rating', 'cumul_rent_cnt', 'stock']
+    rows = []
+
+    with db_cursor(dictionary=True) as (conn, cursor):
+        # DVD 정보 + 누적 대출 횟수, 재고 + 평균 평점 조인
+        cursor.execute("""
+            SELECT
+                d.d_id,
+                d.d_title,
+                d.d_name,
+                d.age_limit,
+                d.cumul_rent_cnt,
+                d.stock,
+                AVG(r.rating) AS avg_rating
+            FROM dvd d
+            LEFT JOIN rate r ON d.d_id = r.d_id
+            GROUP BY d.d_id, d.d_title, d.d_name, d.age_limit, d.cumul_rent_cnt, d.stock
+            ORDER BY d.d_id
+        """)
+        for row in cursor.fetchall():
+            avg_rating = row['avg_rating']
+            avg_rating_str = format_rating(avg_rating) if avg_rating is not None else 'None'
+            rows.append([
+                row['d_id'],
+                row['d_title'],
+                row['d_name'],
+                row['age_limit'],
+                avg_rating_str,
+                row['cumul_rent_cnt'],
+                row['stock'],
+            ])
+
+    # 출력 포맷
+    print('-' * 80)
+    print_table(headers, rows)
+    print('-' * 80)
