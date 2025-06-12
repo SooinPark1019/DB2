@@ -1,6 +1,7 @@
 from db import db_cursor
 from messages import *
-from util import format_rating, print_table, to_positive_int
+from util import format_rating, print_table, to_positive_int, print_table
+import math
 
 def recommend_popularity():
     user_id_input = input('User ID: ').strip()
@@ -90,3 +91,145 @@ def recommend_popularity():
         print('-' * 80)
         print_table(headers, rows)
         print('-' * 80)
+
+
+def recommend_user_based():
+    user_id_input = input('User ID: ').strip()
+    try:
+        user_id = int(user_id_input)
+    except ValueError:
+        print(ERR_USER_NOT_EXIST.format(user_id_input))
+        return
+
+    # 1. 유저 존재 확인 및 나이 확인
+    with db_cursor(dictionary=True) as (conn, cursor):
+        cursor.execute("SELECT u_id, u_age FROM user WHERE u_id=%s", (user_id,))
+        urow = cursor.fetchone()
+        if not urow:
+            print(ERR_USER_NOT_EXIST.format(user_id))
+            return
+        u_age = urow['u_age']
+
+        # 2. 모든 DVD/유저 정보와 평점, 나이제한 불러오기
+        cursor.execute("""
+            SELECT d.d_id, d.d_title, d.d_name, d.age_limit, d.stock,
+                   u.u_id, u.u_name,
+                   r.rating
+            FROM dvd d
+            CROSS JOIN user u
+            LEFT JOIN rate r ON d.d_id = r.d_id AND u.u_id = r.u_id
+            WHERE d.age_limit <= %s
+            ORDER BY d.d_id, u.u_id
+        """, (u_age,))
+        records = cursor.fetchall()
+
+    # 3. 유저ID, DVDID, 평점, DVD 메타정보 매핑
+    user_ids = sorted({r['u_id'] for r in records})
+    dvd_ids = sorted({r['d_id'] for r in records})
+    uid2idx = {uid: i for i, uid in enumerate(user_ids)}
+    did2idx = {did: i for i, did in enumerate(dvd_ids)}
+    idx2uid = {i: uid for uid, i in uid2idx.items()}
+    idx2did = {i: did for did, i in did2idx.items()}
+
+    # 평점 행렬 N x M (N=유저수, M=DVD수)
+    n, m = len(user_ids), len(dvd_ids)
+    ratings = [[None] * m for _ in range(n)]
+    dvd_meta = {}
+    for r in records:
+        i = uid2idx[r['u_id']]
+        j = did2idx[r['d_id']]
+        ratings[i][j] = r['rating']
+        # dvd 메타데이터 저장(나중 출력용)
+        if j not in dvd_meta:
+            dvd_meta[j] = {
+                'd_id': r['d_id'],
+                'd_title': r['d_title'],
+                'd_name': r['d_name'],
+                'age_limit': r['age_limit'],
+                'stock': r['stock'],
+            }
+
+    # 4. 임시 평점 대입: 각 DVD의 유효평점의 평균을 None인 곳에 대입
+    dvd_avgs = []
+    for j in range(m):
+        vals = [ratings[i][j] for i in range(n) if ratings[i][j] is not None]
+        avg = round(sum(vals)/len(vals), 2) if vals else None
+        dvd_avgs.append(avg)
+        for i in range(n):
+            if ratings[i][j] is None:
+                ratings[i][j] = avg
+
+    # 5. 코사인 유사도 행렬
+    def cosine_sim(u, v):
+        # u, v: 두 개의 벡터 (리스트)
+        num = sum(a*b for a, b in zip(u, v))
+        denom1 = math.sqrt(sum(a*a for a in u))
+        denom2 = math.sqrt(sum(b*b for b in v))
+        if denom1 == 0 or denom2 == 0:
+            return 0.0
+        return num / (denom1 * denom2)
+    # N x N 유사도
+    sims = [[0.0]*n for _ in range(n)]
+    for i in range(n):
+        for k in range(n):
+            sims[i][k] = cosine_sim(ratings[i], ratings[k])
+
+    # 6. 추천 대상 DVD 후보 선정 (해당 유저가 평점 남기지 않은, age_limit 만족, 아직 평점 안 남긴 것)
+    user_idx = uid2idx[user_id]
+    rec_candidates = []
+    for j in range(m):
+        # 실제로 평점을 남긴 적 없는 DVD만 후보
+        # "records"에서 user_id와 dvd_id로 평점을 직접 조회
+        orig_rating = None
+        for r in records:
+            if r['u_id'] == user_id and r['d_id'] == idx2did[j]:
+                orig_rating = r['rating']
+                break
+        if orig_rating is None:
+            # 후보: 이 DVD에 대해 아직 평점 안 남김
+            rec_candidates.append(j)
+
+    if not rec_candidates:
+        print(ERR_NO_RECOMMEND)
+        return
+
+    # 7. 각 후보 DVD에 대해 예상 평점 계산 (가중평균)
+    pred_scores = []
+    for j in rec_candidates:
+        num = 0
+        denom = 0
+        for i in range(n):
+            if i == user_idx:
+                continue
+            weight = sims[user_idx][i]
+            rating = ratings[i][j]
+            if rating is not None:
+                num += weight * rating
+                denom += abs(weight)
+        if denom == 0:
+            pred = 0
+        else:
+            pred = num / denom
+        pred_scores.append((pred, j))
+
+    # 8. 최고 예상 평점 DVD 찾기 (동률 시 ID 오름차순)
+    pred_scores.sort(key=lambda x: (-x[0], dvd_meta[x[1]]['d_id']))
+    top_pred, top_j = pred_scores[0]
+
+    # 9. DVD 정보 출력
+    # DVD ID, 제목, 감독, 나이 제한, 예상 평점, (참고: 실제 평균 평점)
+    headers = ['id', 'title', 'director', 'age_limit', 'pred.rating', 'avg.rating', 'stock']
+    rows = []
+    meta = dvd_meta[top_j]
+    rows.append([
+        meta['d_id'],
+        meta['d_title'],
+        meta['d_name'],
+        meta['age_limit'],
+        format_rating(top_pred),
+        format_rating(dvd_avgs[top_j]) if dvd_avgs[top_j] is not None else 'None',
+        meta['stock']
+    ])
+    print('-'*80)
+    print_table(headers, rows)
+    print('-'*80)
