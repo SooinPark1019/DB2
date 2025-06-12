@@ -1,0 +1,1131 @@
+d_id,d_title,d_name,age_limit,u_id,u_name,u_age,rating
+1,1917,Sam Mendes,15,17,Anna,38,1
+1,1917,Sam Mendes,15,20,Kelly,33,5
+2,Alien,Ridley Scott,18,47,Luis,32,1
+2,Alien,Ridley Scott,18,26,Jennifer,37,4
+3,American History X,Tony Kaye,18,18,Daniel,53,2
+3,American History X,Tony Kaye,18,14,Angela,58,5
+4,Anand,Hrishikesh Mukherjee,7,4,William,8,1
+4,Anand,Hrishikesh Mukherjee,7,47,Luis,32,1
+5,Andhadhun,Sriram Raghavan,15,9,Christopher,55,5
+5,Andhadhun,Sriram Raghavan,15,8,James,33,3
+6,Avengers: Endgame,Anthony Russo,15,23,Jay,53,3
+6,Avengers: Endgame,Anthony Russo,15,26,Jennifer,37,3
+7,Avengers: Infinity War,Anthony Russo,18,10,Matthew,56,3
+7,Avengers: Infinity War,Anthony Russo,18,15,Amber,34,1
+8,Ayla: The Daughter of War,Can Ulkay,12,46,Ashley,26,1
+8,Ayla: The Daughter of War,Can Ulkay,12,44,Sherry,56,4
+9,Capharnaüm,Nadine Labaki,18,13,Jennifer,30,4
+9,Capharnaüm,Nadine Labaki,18,34,Victoria,54,1
+10,Casablanca,Michael Curtiz,18,19,Kristin,55,1
+10,Casablanca,Michael Curtiz,18,1,Cory,53,3
+11,City Lights,Charles Chaplin,7,46,Ashley,26,1
+11,City Lights,Charles Chaplin,7,7,Matthew,29,2
+12,Coco,Lee Unkrich,0,32,John,54,1
+12,Coco,Lee Unkrich,0,44,Sherry,56,5
+13,Django Unchained,Quentin Tarantino,12,37,Christine,58,5
+13,Django Unchained,Quentin Tarantino,12,17,Anna,38,3
+14,2001: A Space Odyssey,Stanley Kubrick,12,45,Jeffrey,38,5
+14,2001: A Space Odyssey,Stanley Kubrick,12,8,James,33,3
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,49,Tiffany,23,4
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,31,Michelle,47,2
+16,Fight Club,David Fincher,18,22,Rachel,29,3
+16,Fight Club,David Fincher,18,38,Barbara,47,5
+17,Gisaengchung,Bong Joon Ho,18,23,Jay,53,1
+17,Gisaengchung,Bong Joon Ho,18,20,Kelly,33,1
+18,Gladiator,Ridley Scott,15,28,Sarah,33,5
+18,Gladiator,Ridley Scott,15,27,Billy,27,5
+19,Good Will Hunting,Gus Van Sant,12,18,Daniel,53,3
+62,Mother,Bong Joon Ho,0,4,William,8,3
+20,Goodfellas,Martin Scorsese,19,13,Jennifer,30,2
+20,Goodfellas,Martin Scorsese,19,17,Anna,38,5
+21,Hotaru no haka,Isao Takahata,18,35,John,26,1
+21,Hotaru no haka,Isao Takahata,18,6,Megan,41,1
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,24,Bradley,42,2
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,45,Jeffrey,38,1
+23,Inglourious Basterds,Quentin Tarantino,15,26,Jennifer,37,1
+23,Inglourious Basterds,Quentin Tarantino,15,11,Bryan,54,5
+86,American Graffiti,George Lucas,7,25,Zachary,8,1
+77,My Neighbors the Yamadas,Isao Takahata,7,30,Steven,8,5
+25,La vita e bella,Roberto Benigni,7,5,Lori,35,4
+89,The Majestic,Frank Darabont,7,43,Richard,8,1
+25,La vita e bella,Roberto Benigni,7,27,Billy,27,4
+25,La vita e bella,Roberto Benigni,7,20,Kelly,33,4
+27,Miracle in cell NO.7,Mehmet Ada _ztekin,15,12,Emma,26,1
+12,Coco,Lee Unkrich,0,43,Richard,8,4
+36,Saving Private Ryan,Steven Spielberg,0,2,Nichole,8,3
+28,Modern Times,Charles Chaplin,18,40,Tyler,20,4
+29,Mononoke-hime,Hayao Miyazaki,0,46,Ashley,26,4
+29,Mononoke-hime,Hayao Miyazaki,0,9,Christopher,55,5
+30,Oldeuboi,Chan-wook Park,15,50,Martin,28,5
+85,The Little Prince,Bob Persichetti,7,4,William,8,5
+31,Once Upon a Time in America,Sergio Leone,7,1,Cory,53,4
+31,Once Upon a Time in America,Sergio Leone,7,35,John,26,1
+32,Once Upon a Time in the West,Sergio Leone,19,37,Christine,58,5
+32,Once Upon a Time in the West,Sergio Leone,19,42,Gary,19,1
+33,Paths of Glory,Stanley Kubrick,18,13,Jennifer,30,5
+33,Paths of Glory,Stanley Kubrick,18,38,Barbara,47,3
+34,Raiders of the Lost Ark,Steven Spielberg,15,20,Kelly,33,2
+36,Saving Private Ryan,Steven Spielberg,0,43,Richard,8,1
+35,Requiem for a Dream,Darren Aronofsky,0,46,Ashley,26,1
+35,Requiem for a Dream,Darren Aronofsky,0,18,Daniel,53,1
+36,Saving Private Ryan,Steven Spielberg,0,46,Ashley,26,2
+36,Saving Private Ryan,Steven Spielberg,0,50,Martin,28,3
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,22,Rachel,29,3
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,45,Jeffrey,38,2
+38,Shichinin no samurai,Akira Kurosawa,12,17,Anna,38,3
+38,Shichinin no samurai,Akira Kurosawa,12,38,Barbara,47,2
+39,Snatch,Guy Ritchie,7,3,Travis,21,2
+39,Snatch,Guy Ritchie,7,35,John,26,5
+40,Soorarai Pottru,Sudha Kongara,15,37,Christine,58,2
+40,Soorarai Pottru,Sudha Kongara,15,45,Jeffrey,38,4
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,36,Christopher,22,3
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,50,Martin,28,3
+42,Star Wars,George Lucas,19,50,Martin,28,2
+42,Star Wars,George Lucas,19,26,Jennifer,37,5
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,12,Emma,26,1
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,16,Jessica,44,5
+44,The Dark Knight,Christopher Nolan,19,48,Frank,43,2
+44,The Dark Knight,Christopher Nolan,19,27,Billy,27,4
+45,The Dark Knight Rises,Christopher Nolan,12,45,Jeffrey,38,5
+45,The Dark Knight Rises,Christopher Nolan,12,34,Victoria,54,3
+46,The Departed,Martin Scorsese,15,14,Angela,58,4
+46,The Departed,Martin Scorsese,15,11,Bryan,54,1
+47,The Godfather: Part II,Francis Ford Coppola,15,7,Matthew,29,5
+47,The Godfather: Part II,Francis Ford Coppola,15,41,Michael,58,5
+48,The Great Dictator,Charles Chaplin,0,8,James,33,5
+48,The Great Dictator,Charles Chaplin,0,4,William,8,4
+49,The Green Mile,Frank Darabont,12,48,Frank,43,2
+49,The Green Mile,Frank Darabont,12,19,Kristin,55,3
+50,The Intouchables,Olivier Nakache,18,14,Angela,58,3
+50,The Intouchables,Olivier Nakache,18,33,Frank,36,3
+51,The Lion King,Roger Allers,0,2,Nichole,8,5
+51,The Lion King,Roger Allers,0,9,Christopher,55,4
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,16,Jessica,44,2
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,10,Matthew,56,4
+86,American Graffiti,George Lucas,7,25,Zachary,8,5
+63,Snowpiercer,Bong Joon Ho,7,2,Nichole,8,2
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,26,Jennifer,37,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,5,Lori,35,5
+55,The Matrix,Lana Wachowski,7,12,Emma,26,2
+55,The Matrix,Lana Wachowski,7,16,Jessica,44,4
+56,The Shining,Stanley Kubrick,15,22,Rachel,29,5
+56,The Shining,Stanley Kubrick,15,15,Amber,34,2
+57,The Usual Suspects,Bryan Singer,0,34,Victoria,54,3
+57,The Usual Suspects,Bryan Singer,0,17,Anna,38,4
+58,Tumbbad,Rahi Anil Barve,15,19,Kristin,55,3
+58,Tumbbad,Rahi Anil Barve,15,45,Jeffrey,38,1
+59,Vikram Vedha,Gayatri,19,37,Christine,58,5
+59,Vikram Vedha,Gayatri,19,45,Jeffrey,38,4
+60,WALL·E,Andrew Stanton,7,23,Jay,53,2
+60,WALL·E,Andrew Stanton,7,5,Lori,35,4
+61,Witness for the Prosecution,Billy Wilder,7,18,Daniel,53,1
+61,Witness for the Prosecution,Billy Wilder,7,28,Sarah,33,1
+62,Mother,Bong Joon Ho,0,1,Cory,53,5
+62,Mother,Bong Joon Ho,0,10,Matthew,56,4
+63,Snowpiercer,Bong Joon Ho,7,21,Megan,40,4
+63,Snowpiercer,Bong Joon Ho,7,26,Jennifer,37,3
+29,Mononoke-hime,Hayao Miyazaki,0,2,Nichole,8,3
+64,Open Season,Roger Allers,18,48,Frank,43,5
+65,Beauty and the Beast,Roger Allers,7,42,Gary,19,3
+65,Beauty and the Beast,Roger Allers,7,8,James,33,5
+66,Road to Perdition,Sam Mendes,15,16,Jessica,44,1
+66,Road to Perdition,Sam Mendes,15,21,Megan,40,2
+67,Lakeview Terrace,Tony Kaye,15,44,Sherry,56,5
+67,Lakeview Terrace,Tony Kaye,15,16,Jessica,44,4
+68,Chupke Chupke,Hrishikesh Mukherjee,15,40,Tyler,20,3
+68,Chupke Chupke,Hrishikesh Mukherjee,15,20,Kelly,33,5
+69,Johnny Gaddaar,Sriram Raghavan,15,16,Jessica,44,5
+69,Johnny Gaddaar,Sriram Raghavan,15,14,Angela,58,4
+89,The Majestic,Frank Darabont,7,43,Richard,8,3
+70,Turkish Ice-Cream,Can Ulkay,18,13,Jennifer,30,5
+71,Where Do We Go Now?,Nadine Labaki,12,24,Bradley,42,5
+71,Where Do We Go Now?,Nadine Labaki,12,50,Martin,28,1
+72,Yankee Doodle Dandy,Michael Curtiz,19,7,Matthew,29,4
+72,Yankee Doodle Dandy,Michael Curtiz,19,16,Jessica,44,1
+73,Toy Story 3,Lee Unkrich,0,3,Travis,21,3
+73,Toy Story 3,Lee Unkrich,0,1,Cory,53,5
+74,The Science of Sleep,Michel Gondry,15,9,Christopher,55,1
+74,The Science of Sleep,Michel Gondry,15,6,Megan,41,1
+75,Se7en,David Fincher,7,14,Angela,58,3
+75,Se7en,David Fincher,7,36,Christopher,22,1
+76,Milk,Gus Van Sant,15,6,Megan,41,3
+76,Milk,Gus Van Sant,15,7,Matthew,29,1
+77,My Neighbors the Yamadas,Isao Takahata,7,27,Billy,27,3
+77,My Neighbors the Yamadas,Isao Takahata,7,15,Amber,34,3
+78,Mr. Smith Goes to Washington,Frank Capra,19,37,Christine,58,5
+78,Mr. Smith Goes to Washington,Frank Capra,19,14,Angela,58,2
+79,My Father and My Son,Mehmet Ada Öztekin,19,50,Martin,28,5
+79,My Father and My Son,Mehmet Ada Öztekin,19,20,Kelly,33,1
+80,The Handmaiden,Chan-wook Park,19,46,Ashley,26,1
+80,The Handmaiden,Chan-wook Park,19,33,Frank,36,4
+81,Black Swan,Darren Aronofsky,7,42,Gary,19,4
+81,Black Swan,Darren Aronofsky,7,38,Barbara,47,4
+82,Rashomon,Akira Kurosawa,15,20,Kelly,33,4
+82,Rashomon,Akira Kurosawa,15,28,Sarah,33,4
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,9,Christopher,55,3
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,14,Angela,58,3
+84,Irudhi Suttru,Sudha Kongara,18,8,James,33,5
+84,Irudhi Suttru,Sudha Kongara,18,24,Bradley,42,5
+85,The Little Prince,Bob Persichetti,7,14,Angela,58,2
+85,The Little Prince,Bob Persichetti,7,26,Jennifer,37,1
+86,American Graffiti,George Lucas,7,2,Nichole,8,1
+86,American Graffiti,George Lucas,7,49,Tiffany,23,3
+87,Never Say Never Again,Irvin Kershner,15,42,Gary,19,2
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,25,Zachary,8,3
+88,Apocalypse Now,Francis Ford Coppola,7,38,Barbara,47,1
+88,Apocalypse Now,Francis Ford Coppola,7,41,Michael,58,1
+89,The Majestic,Frank Darabont,7,37,Christine,58,2
+89,The Majestic,Frank Darabont,7,8,James,33,1
+90,Samba,Olivier Nakache,19,36,Christopher,22,1
+73,Toy Story 3,Lee Unkrich,0,2,Nichole,8,4
+91,The Tourist,Florian Henckel von Donnersmarck,15,24,Bradley,42,4
+91,The Tourist,Florian Henckel von Donnersmarck,15,11,Bryan,54,3
+92,Jupiter Ascending,Lana Wachowski,19,26,Jennifer,37,2
+92,Jupiter Ascending,Lana Wachowski,19,23,Jay,53,3
+93,Valkyrie,Bryan Singer,19,24,Bradley,42,2
+93,Valkyrie,Bryan Singer,19,9,Christopher,55,5
+94,Ship of Theseus,Rahi Anil Barve,15,38,Barbara,47,1
+94,Ship of Theseus,Rahi Anil Barve,15,46,Ashley,26,5
+95,Pushkar,Gayatri,0,4,William,8,3
+95,Pushkar,Gayatri,0,30,Steven,8,4
+96,Finding Nemo,Andrew Stanton,0,19,Kristin,55,4
+96,Finding Nemo,Andrew Stanton,0,46,Ashley,26,5
+97,Double Indemnity,Billy Wilder,19,15,Amber,34,1
+97,Double Indemnity,Billy Wilder,19,10,Matthew,56,3
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,18,Daniel,53,3
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,18,Daniel,53,2
+14,2001: A Space Odyssey,Stanley Kubrick,12,13,Jennifer,30,4
+81,Black Swan,Darren Aronofsky,7,9,Christopher,55,4
+8,Ayla: The Daughter of War,Can Ulkay,12,23,Jay,53,4
+30,Oldeuboi,Chan-wook Park,15,9,Christopher,55,2
+51,The Lion King,Roger Allers,0,34,Victoria,54,1
+65,Beauty and the Beast,Roger Allers,7,6,Megan,41,2
+75,Se7en,David Fincher,7,9,Christopher,55,2
+63,Snowpiercer,Bong Joon Ho,7,44,Sherry,56,3
+20,Goodfellas,Martin Scorsese,19,38,Barbara,47,1
+77,My Neighbors the Yamadas,Isao Takahata,7,31,Michelle,47,5
+65,Beauty and the Beast,Roger Allers,7,3,Travis,21,4
+82,Rashomon,Akira Kurosawa,15,23,Jay,53,3
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,31,Michelle,47,3
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,31,Michelle,47,4
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,15,Amber,34,3
+82,Rashomon,Akira Kurosawa,15,41,Michael,58,5
+35,Requiem for a Dream,Darren Aronofsky,0,40,Tyler,20,1
+47,The Godfather: Part II,Francis Ford Coppola,15,28,Sarah,33,2
+5,Andhadhun,Sriram Raghavan,15,7,Matthew,29,5
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,45,Jeffrey,38,2
+13,Django Unchained,Quentin Tarantino,12,1,Cory,53,5
+32,Once Upon a Time in the West,Sergio Leone,19,29,Angel,36,5
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,43,Richard,8,4
+51,The Lion King,Roger Allers,0,26,Jennifer,37,1
+60,WALL·E,Andrew Stanton,7,36,Christopher,22,2
+25,La vita e bella,Roberto Benigni,7,23,Jay,53,4
+88,Apocalypse Now,Francis Ford Coppola,7,20,Kelly,33,1
+12,Coco,Lee Unkrich,0,40,Tyler,20,4
+97,Double Indemnity,Billy Wilder,19,24,Bradley,42,1
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,11,Bryan,54,2
+87,Never Say Never Again,Irvin Kershner,15,5,Lori,35,5
+25,La vita e bella,Roberto Benigni,7,50,Martin,28,5
+80,The Handmaiden,Chan-wook Park,19,5,Lori,35,4
+5,Andhadhun,Sriram Raghavan,15,1,Cory,53,2
+55,The Matrix,Lana Wachowski,7,2,Nichole,8,5
+90,Samba,Olivier Nakache,19,5,Lori,35,5
+2,Alien,Ridley Scott,18,8,James,33,1
+29,Mononoke-hime,Hayao Miyazaki,0,11,Bryan,54,4
+73,Toy Story 3,Lee Unkrich,0,21,Megan,40,4
+28,Modern Times,Charles Chaplin,18,50,Martin,28,4
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,46,Ashley,26,1
+64,Open Season,Roger Allers,18,37,Christine,58,1
+28,Modern Times,Charles Chaplin,18,7,Matthew,29,3
+68,Chupke Chupke,Hrishikesh Mukherjee,15,42,Gary,19,4
+84,Irudhi Suttru,Sudha Kongara,18,44,Sherry,56,3
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,49,Tiffany,23,1
+47,The Godfather: Part II,Francis Ford Coppola,15,44,Sherry,56,1
+11,City Lights,Charles Chaplin,7,25,Zachary,8,4
+77,My Neighbors the Yamadas,Isao Takahata,7,34,Victoria,54,2
+88,Apocalypse Now,Francis Ford Coppola,7,12,Emma,26,1
+96,Finding Nemo,Andrew Stanton,0,11,Bryan,54,1
+5,Andhadhun,Sriram Raghavan,15,49,Tiffany,23,2
+38,Shichinin no samurai,Akira Kurosawa,12,8,James,33,4
+24,It's a Wonderful Life,Frank Capra,19,28,Sarah,33,5
+50,The Intouchables,Olivier Nakache,18,22,Rachel,29,2
+44,The Dark Knight,Christopher Nolan,19,15,Amber,34,2
+20,Goodfellas,Martin Scorsese,19,9,Christopher,55,3
+8,Ayla: The Daughter of War,Can Ulkay,12,45,Jeffrey,38,4
+40,Soorarai Pottru,Sudha Kongara,15,10,Matthew,56,1
+78,Mr. Smith Goes to Washington,Frank Capra,19,16,Jessica,44,4
+55,The Matrix,Lana Wachowski,7,26,Jennifer,37,3
+13,Django Unchained,Quentin Tarantino,12,47,Luis,32,2
+67,Lakeview Terrace,Tony Kaye,15,13,Jennifer,30,5
+9,Capharnaüm,Nadine Labaki,18,29,Angel,36,3
+24,It's a Wonderful Life,Frank Capra,19,36,Christopher,22,1
+11,City Lights,Charles Chaplin,7,43,Richard,8,1
+35,Requiem for a Dream,Darren Aronofsky,0,3,Travis,21,5
+77,My Neighbors the Yamadas,Isao Takahata,7,50,Martin,28,3
+27,Miracle in cell NO.7,Mehmet Ada _ztekin,15,22,Rachel,29,5
+88,Apocalypse Now,Francis Ford Coppola,7,16,Jessica,44,2
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,6,Megan,41,5
+97,Double Indemnity,Billy Wilder,19,26,Jennifer,37,3
+69,Johnny Gaddaar,Sriram Raghavan,15,15,Amber,34,2
+67,Lakeview Terrace,Tony Kaye,15,35,John,26,1
+19,Good Will Hunting,Gus Van Sant,12,11,Bryan,54,4
+89,The Majestic,Frank Darabont,7,4,William,8,4
+89,The Majestic,Frank Darabont,7,19,Kristin,55,1
+56,The Shining,Stanley Kubrick,15,26,Jennifer,37,4
+76,Milk,Gus Van Sant,15,13,Jennifer,30,1
+87,Never Say Never Again,Irvin Kershner,15,24,Bradley,42,5
+13,Django Unchained,Quentin Tarantino,12,9,Christopher,55,2
+39,Snatch,Guy Ritchie,7,26,Jennifer,37,4
+69,Johnny Gaddaar,Sriram Raghavan,15,46,Ashley,26,5
+57,The Usual Suspects,Bryan Singer,0,1,Cory,53,3
+7,Avengers: Infinity War,Anthony Russo,18,26,Jennifer,37,1
+35,Requiem for a Dream,Darren Aronofsky,0,35,John,26,3
+45,The Dark Knight Rises,Christopher Nolan,12,18,Daniel,53,4
+32,Once Upon a Time in the West,Sergio Leone,19,24,Bradley,42,1
+55,The Matrix,Lana Wachowski,7,13,Jennifer,30,5
+25,La vita e bella,Roberto Benigni,7,15,Amber,34,2
+85,The Little Prince,Bob Persichetti,7,43,Richard,8,5
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,24,Bradley,42,5
+36,Saving Private Ryan,Steven Spielberg,0,30,Steven,8,3
+18,Gladiator,Ridley Scott,15,50,Martin,28,2
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,41,Michael,58,2
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,30,Steven,8,5
+69,Johnny Gaddaar,Sriram Raghavan,15,21,Megan,40,2
+23,Inglourious Basterds,Quentin Tarantino,15,33,Frank,36,2
+79,My Father and My Son,Mehmet Ada Öztekin,19,11,Bryan,54,1
+84,Irudhi Suttru,Sudha Kongara,18,22,Rachel,29,3
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,10,Matthew,56,2
+88,Apocalypse Now,Francis Ford Coppola,7,30,Steven,8,1
+35,Requiem for a Dream,Darren Aronofsky,0,30,Steven,8,5
+68,Chupke Chupke,Hrishikesh Mukherjee,15,49,Tiffany,23,2
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,8,James,33,4
+62,Mother,Bong Joon Ho,0,26,Jennifer,37,4
+76,Milk,Gus Van Sant,15,9,Christopher,55,3
+71,Where Do We Go Now?,Nadine Labaki,12,11,Bryan,54,5
+35,Requiem for a Dream,Darren Aronofsky,0,15,Amber,34,4
+29,Mononoke-hime,Hayao Miyazaki,0,36,Christopher,22,4
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,33,Frank,36,4
+94,Ship of Theseus,Rahi Anil Barve,15,5,Lori,35,3
+81,Black Swan,Darren Aronofsky,7,16,Jessica,44,4
+39,Snatch,Guy Ritchie,7,25,Zachary,8,1
+39,Snatch,Guy Ritchie,7,31,Michelle,47,5
+56,The Shining,Stanley Kubrick,15,5,Lori,35,3
+17,Gisaengchung,Bong Joon Ho,18,24,Bradley,42,5
+77,My Neighbors the Yamadas,Isao Takahata,7,48,Frank,43,5
+84,Irudhi Suttru,Sudha Kongara,18,31,Michelle,47,4
+65,Beauty and the Beast,Roger Allers,7,32,John,54,3
+24,It's a Wonderful Life,Frank Capra,19,20,Kelly,33,5
+58,Tumbbad,Rahi Anil Barve,15,7,Matthew,29,5
+45,The Dark Knight Rises,Christopher Nolan,12,35,John,26,2
+20,Goodfellas,Martin Scorsese,19,45,Jeffrey,38,1
+30,Oldeuboi,Chan-wook Park,15,8,James,33,5
+79,My Father and My Son,Mehmet Ada Öztekin,19,24,Bradley,42,3
+25,La vita e bella,Roberto Benigni,7,31,Michelle,47,1
+82,Rashomon,Akira Kurosawa,15,33,Frank,36,5
+48,The Great Dictator,Charles Chaplin,0,12,Emma,26,1
+58,Tumbbad,Rahi Anil Barve,15,9,Christopher,55,5
+85,The Little Prince,Bob Persichetti,7,21,Megan,40,3
+17,Gisaengchung,Bong Joon Ho,18,5,Lori,35,2
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,41,Michael,58,5
+58,Tumbbad,Rahi Anil Barve,15,40,Tyler,20,2
+48,The Great Dictator,Charles Chaplin,0,13,Jennifer,30,5
+70,Turkish Ice-Cream,Can Ulkay,18,19,Kristin,55,1
+93,Valkyrie,Bryan Singer,19,18,Daniel,53,1
+57,The Usual Suspects,Bryan Singer,0,23,Jay,53,2
+86,American Graffiti,George Lucas,7,48,Frank,43,4
+38,Shichinin no samurai,Akira Kurosawa,12,35,John,26,2
+35,Requiem for a Dream,Darren Aronofsky,0,8,James,33,2
+73,Toy Story 3,Lee Unkrich,0,42,Gary,19,5
+9,Capharnaüm,Nadine Labaki,18,41,Michael,58,3
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,20,Kelly,33,1
+58,Tumbbad,Rahi Anil Barve,15,23,Jay,53,5
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,28,Sarah,33,3
+79,My Father and My Son,Mehmet Ada Öztekin,19,3,Travis,21,4
+61,Witness for the Prosecution,Billy Wilder,7,16,Jessica,44,5
+33,Paths of Glory,Stanley Kubrick,18,16,Jessica,44,5
+40,Soorarai Pottru,Sudha Kongara,15,50,Martin,28,1
+72,Yankee Doodle Dandy,Michael Curtiz,19,41,Michael,58,4
+24,It's a Wonderful Life,Frank Capra,19,7,Matthew,29,5
+97,Double Indemnity,Billy Wilder,19,12,Emma,26,4
+6,Avengers: Endgame,Anthony Russo,15,27,Billy,27,2
+35,Requiem for a Dream,Darren Aronofsky,0,50,Martin,28,4
+21,Hotaru no haka,Isao Takahata,18,22,Rachel,29,3
+84,Irudhi Suttru,Sudha Kongara,18,5,Lori,35,2
+67,Lakeview Terrace,Tony Kaye,15,5,Lori,35,2
+7,Avengers: Infinity War,Anthony Russo,18,23,Jay,53,5
+62,Mother,Bong Joon Ho,0,2,Nichole,8,5
+7,Avengers: Infinity War,Anthony Russo,18,50,Martin,28,2
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,2,Nichole,8,4
+50,The Intouchables,Olivier Nakache,18,9,Christopher,55,3
+95,Pushkar,Gayatri,0,14,Angela,58,2
+25,La vita e bella,Roberto Benigni,7,48,Frank,43,5
+2,Alien,Ridley Scott,18,13,Jennifer,30,1
+70,Turkish Ice-Cream,Can Ulkay,18,20,Kelly,33,3
+49,The Green Mile,Frank Darabont,12,16,Jessica,44,5
+95,Pushkar,Gayatri,0,30,Steven,8,3
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,10,Matthew,56,5
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,21,Megan,40,4
+59,Vikram Vedha,Gayatri,19,33,Frank,36,5
+97,Double Indemnity,Billy Wilder,19,34,Victoria,54,1
+8,Ayla: The Daughter of War,Can Ulkay,12,10,Matthew,56,4
+79,My Father and My Son,Mehmet Ada Öztekin,19,9,Christopher,55,2
+75,Se7en,David Fincher,7,46,Ashley,26,3
+74,The Science of Sleep,Michel Gondry,15,28,Sarah,33,2
+16,Fight Club,David Fincher,18,29,Angel,36,3
+77,My Neighbors the Yamadas,Isao Takahata,7,9,Christopher,55,4
+77,My Neighbors the Yamadas,Isao Takahata,7,4,William,8,2
+32,Once Upon a Time in the West,Sergio Leone,19,35,John,26,2
+13,Django Unchained,Quentin Tarantino,12,24,Bradley,42,4
+78,Mr. Smith Goes to Washington,Frank Capra,19,7,Matthew,29,3
+49,The Green Mile,Frank Darabont,12,49,Tiffany,23,2
+94,Ship of Theseus,Rahi Anil Barve,15,21,Megan,40,2
+29,Mononoke-hime,Hayao Miyazaki,0,15,Amber,34,2
+69,Johnny Gaddaar,Sriram Raghavan,15,18,Daniel,53,2
+28,Modern Times,Charles Chaplin,18,15,Amber,34,2
+91,The Tourist,Florian Henckel von Donnersmarck,15,20,Kelly,33,1
+91,The Tourist,Florian Henckel von Donnersmarck,15,32,John,54,2
+87,Never Say Never Again,Irvin Kershner,15,32,John,54,3
+96,Finding Nemo,Andrew Stanton,0,3,Travis,21,5
+88,Apocalypse Now,Francis Ford Coppola,7,3,Travis,21,3
+97,Double Indemnity,Billy Wilder,19,21,Megan,40,1
+33,Paths of Glory,Stanley Kubrick,18,15,Amber,34,3
+55,The Matrix,Lana Wachowski,7,9,Christopher,55,3
+74,The Science of Sleep,Michel Gondry,15,29,Angel,36,5
+25,La vita e bella,Roberto Benigni,7,37,Christine,58,5
+55,The Matrix,Lana Wachowski,7,2,Nichole,8,1
+5,Andhadhun,Sriram Raghavan,15,23,Jay,53,3
+95,Pushkar,Gayatri,0,42,Gary,19,2
+11,City Lights,Charles Chaplin,7,4,William,8,2
+72,Yankee Doodle Dandy,Michael Curtiz,19,20,Kelly,33,1
+96,Finding Nemo,Andrew Stanton,0,7,Matthew,29,2
+93,Valkyrie,Bryan Singer,19,20,Kelly,33,1
+85,The Little Prince,Bob Persichetti,7,11,Bryan,54,3
+48,The Great Dictator,Charles Chaplin,0,33,Frank,36,1
+58,Tumbbad,Rahi Anil Barve,15,29,Angel,36,1
+29,Mononoke-hime,Hayao Miyazaki,0,25,Zachary,8,3
+65,Beauty and the Beast,Roger Allers,7,31,Michelle,47,1
+20,Goodfellas,Martin Scorsese,19,49,Tiffany,23,4
+65,Beauty and the Beast,Roger Allers,7,20,Kelly,33,2
+4,Anand,Hrishikesh Mukherjee,7,16,Jessica,44,5
+45,The Dark Knight Rises,Christopher Nolan,12,48,Frank,43,4
+87,Never Say Never Again,Irvin Kershner,15,13,Jennifer,30,5
+50,The Intouchables,Olivier Nakache,18,49,Tiffany,23,5
+45,The Dark Knight Rises,Christopher Nolan,12,44,Sherry,56,2
+92,Jupiter Ascending,Lana Wachowski,19,49,Tiffany,23,1
+28,Modern Times,Charles Chaplin,18,24,Bradley,42,5
+46,The Departed,Martin Scorsese,15,21,Megan,40,2
+96,Finding Nemo,Andrew Stanton,0,40,Tyler,20,4
+95,Pushkar,Gayatri,0,44,Sherry,56,3
+57,The Usual Suspects,Bryan Singer,0,37,Christine,58,5
+25,La vita e bella,Roberto Benigni,7,49,Tiffany,23,4
+77,My Neighbors the Yamadas,Isao Takahata,7,37,Christine,58,3
+94,Ship of Theseus,Rahi Anil Barve,15,17,Anna,38,1
+86,American Graffiti,George Lucas,7,6,Megan,41,1
+77,My Neighbors the Yamadas,Isao Takahata,7,19,Kristin,55,5
+16,Fight Club,David Fincher,18,7,Matthew,29,3
+90,Samba,Olivier Nakache,19,38,Barbara,47,5
+97,Double Indemnity,Billy Wilder,19,5,Lori,35,2
+33,Paths of Glory,Stanley Kubrick,18,22,Rachel,29,5
+56,The Shining,Stanley Kubrick,15,24,Bradley,42,4
+35,Requiem for a Dream,Darren Aronofsky,0,38,Barbara,47,1
+97,Double Indemnity,Billy Wilder,19,47,Luis,32,3
+84,Irudhi Suttru,Sudha Kongara,18,9,Christopher,55,5
+71,Where Do We Go Now?,Nadine Labaki,12,6,Megan,41,1
+39,Snatch,Guy Ritchie,7,16,Jessica,44,1
+21,Hotaru no haka,Isao Takahata,18,46,Ashley,26,4
+68,Chupke Chupke,Hrishikesh Mukherjee,15,10,Matthew,56,2
+90,Samba,Olivier Nakache,19,34,Victoria,54,2
+11,City Lights,Charles Chaplin,7,18,Daniel,53,5
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,36,Christopher,22,5
+1,1917,Sam Mendes,15,13,Jennifer,30,4
+38,Shichinin no samurai,Akira Kurosawa,12,32,John,54,5
+29,Mononoke-hime,Hayao Miyazaki,0,23,Jay,53,3
+66,Road to Perdition,Sam Mendes,15,36,Christopher,22,3
+96,Finding Nemo,Andrew Stanton,0,27,Billy,27,4
+85,The Little Prince,Bob Persichetti,7,29,Angel,36,5
+1,1917,Sam Mendes,15,38,Barbara,47,2
+1,1917,Sam Mendes,15,22,Rachel,29,5
+63,Snowpiercer,Bong Joon Ho,7,43,Richard,8,1
+25,La vita e bella,Roberto Benigni,7,26,Jennifer,37,2
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,26,Jennifer,37,4
+19,Good Will Hunting,Gus Van Sant,12,33,Frank,36,4
+4,Anand,Hrishikesh Mukherjee,7,12,Emma,26,1
+39,Snatch,Guy Ritchie,7,17,Anna,38,2
+50,The Intouchables,Olivier Nakache,18,24,Bradley,42,1
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,28,Sarah,33,1
+77,My Neighbors the Yamadas,Isao Takahata,7,29,Angel,36,5
+30,Oldeuboi,Chan-wook Park,15,49,Tiffany,23,2
+12,Coco,Lee Unkrich,0,24,Bradley,42,1
+85,The Little Prince,Bob Persichetti,7,43,Richard,8,2
+55,The Matrix,Lana Wachowski,7,23,Jay,53,5
+16,Fight Club,David Fincher,18,47,Luis,32,5
+39,Snatch,Guy Ritchie,7,34,Victoria,54,1
+74,The Science of Sleep,Michel Gondry,15,49,Tiffany,23,5
+30,Oldeuboi,Chan-wook Park,15,7,Matthew,29,1
+81,Black Swan,Darren Aronofsky,7,14,Angela,58,2
+85,The Little Prince,Bob Persichetti,7,45,Jeffrey,38,3
+89,The Majestic,Frank Darabont,7,41,Michael,58,4
+20,Goodfellas,Martin Scorsese,19,8,James,33,3
+75,Se7en,David Fincher,7,4,William,8,2
+33,Paths of Glory,Stanley Kubrick,18,26,Jennifer,37,5
+77,My Neighbors the Yamadas,Isao Takahata,7,7,Matthew,29,4
+49,The Green Mile,Frank Darabont,12,31,Michelle,47,5
+56,The Shining,Stanley Kubrick,15,32,John,54,2
+39,Snatch,Guy Ritchie,7,47,Luis,32,3
+6,Avengers: Endgame,Anthony Russo,15,50,Martin,28,2
+75,Se7en,David Fincher,7,41,Michael,58,4
+47,The Godfather: Part II,Francis Ford Coppola,15,1,Cory,53,3
+76,Milk,Gus Van Sant,15,37,Christine,58,3
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,26,Jennifer,37,2
+97,Double Indemnity,Billy Wilder,19,40,Tyler,20,4
+97,Double Indemnity,Billy Wilder,19,48,Frank,43,3
+82,Rashomon,Akira Kurosawa,15,44,Sherry,56,3
+67,Lakeview Terrace,Tony Kaye,15,42,Gary,19,5
+62,Mother,Bong Joon Ho,0,12,Emma,26,5
+33,Paths of Glory,Stanley Kubrick,18,9,Christopher,55,2
+10,Casablanca,Michael Curtiz,18,37,Christine,58,5
+2,Alien,Ridley Scott,18,41,Michael,58,4
+81,Black Swan,Darren Aronofsky,7,32,John,54,4
+96,Finding Nemo,Andrew Stanton,0,17,Anna,38,1
+9,Capharnaüm,Nadine Labaki,18,48,Frank,43,4
+49,The Green Mile,Frank Darabont,12,24,Bradley,42,5
+4,Anand,Hrishikesh Mukherjee,7,8,James,33,2
+56,The Shining,Stanley Kubrick,15,45,Jeffrey,38,3
+6,Avengers: Endgame,Anthony Russo,15,36,Christopher,22,4
+69,Johnny Gaddaar,Sriram Raghavan,15,6,Megan,41,1
+35,Requiem for a Dream,Darren Aronofsky,0,49,Tiffany,23,3
+66,Road to Perdition,Sam Mendes,15,27,Billy,27,5
+63,Snowpiercer,Bong Joon Ho,7,24,Bradley,42,4
+82,Rashomon,Akira Kurosawa,15,8,James,33,2
+55,The Matrix,Lana Wachowski,7,5,Lori,35,1
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,38,Barbara,47,4
+38,Shichinin no samurai,Akira Kurosawa,12,36,Christopher,22,2
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,19,Kristin,55,2
+69,Johnny Gaddaar,Sriram Raghavan,15,31,Michelle,47,5
+13,Django Unchained,Quentin Tarantino,12,45,Jeffrey,38,5
+71,Where Do We Go Now?,Nadine Labaki,12,5,Lori,35,1
+36,Saving Private Ryan,Steven Spielberg,0,24,Bradley,42,4
+74,The Science of Sleep,Michel Gondry,15,14,Angela,58,2
+59,Vikram Vedha,Gayatri,19,50,Martin,28,4
+92,Jupiter Ascending,Lana Wachowski,19,8,James,33,2
+5,Andhadhun,Sriram Raghavan,15,31,Michelle,47,4
+94,Ship of Theseus,Rahi Anil Barve,15,34,Victoria,54,4
+4,Anand,Hrishikesh Mukherjee,7,20,Kelly,33,1
+31,Once Upon a Time in America,Sergio Leone,7,19,Kristin,55,4
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,21,Megan,40,1
+78,Mr. Smith Goes to Washington,Frank Capra,19,45,Jeffrey,38,5
+95,Pushkar,Gayatri,0,5,Lori,35,4
+84,Irudhi Suttru,Sudha Kongara,18,21,Megan,40,3
+13,Django Unchained,Quentin Tarantino,12,11,Bryan,54,4
+91,The Tourist,Florian Henckel von Donnersmarck,15,38,Barbara,47,3
+82,Rashomon,Akira Kurosawa,15,31,Michelle,47,5
+21,Hotaru no haka,Isao Takahata,18,39,Elizabeth,24,4
+82,Rashomon,Akira Kurosawa,15,40,Tyler,20,4
+39,Snatch,Guy Ritchie,7,27,Billy,27,4
+69,Johnny Gaddaar,Sriram Raghavan,15,3,Travis,21,2
+44,The Dark Knight,Christopher Nolan,19,12,Emma,26,4
+4,Anand,Hrishikesh Mukherjee,7,32,John,54,4
+24,It's a Wonderful Life,Frank Capra,19,16,Jessica,44,1
+88,Apocalypse Now,Francis Ford Coppola,7,2,Nichole,8,3
+39,Snatch,Guy Ritchie,7,30,Steven,8,3
+3,American History X,Tony Kaye,18,9,Christopher,55,1
+73,Toy Story 3,Lee Unkrich,0,26,Jennifer,37,1
+96,Finding Nemo,Andrew Stanton,0,33,Frank,36,2
+14,2001: A Space Odyssey,Stanley Kubrick,12,35,John,26,2
+64,Open Season,Roger Allers,18,29,Angel,36,2
+88,Apocalypse Now,Francis Ford Coppola,7,17,Anna,38,1
+80,The Handmaiden,Chan-wook Park,19,12,Emma,26,2
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,33,Frank,36,1
+2,Alien,Ridley Scott,18,49,Tiffany,23,4
+76,Milk,Gus Van Sant,15,18,Daniel,53,4
+29,Mononoke-hime,Hayao Miyazaki,0,39,Elizabeth,24,1
+63,Snowpiercer,Bong Joon Ho,7,2,Nichole,8,4
+77,My Neighbors the Yamadas,Isao Takahata,7,43,Richard,8,2
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,19,Kristin,55,3
+36,Saving Private Ryan,Steven Spielberg,0,34,Victoria,54,3
+77,My Neighbors the Yamadas,Isao Takahata,7,5,Lori,35,2
+90,Samba,Olivier Nakache,19,12,Emma,26,5
+38,Shichinin no samurai,Akira Kurosawa,12,5,Lori,35,5
+16,Fight Club,David Fincher,18,46,Ashley,26,4
+45,The Dark Knight Rises,Christopher Nolan,12,42,Gary,19,5
+24,It's a Wonderful Life,Frank Capra,19,10,Matthew,56,1
+68,Chupke Chupke,Hrishikesh Mukherjee,15,8,James,33,2
+81,Black Swan,Darren Aronofsky,7,25,Zachary,8,5
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,11,Bryan,54,1
+88,Apocalypse Now,Francis Ford Coppola,7,8,James,33,3
+76,Milk,Gus Van Sant,15,23,Jay,53,3
+63,Snowpiercer,Bong Joon Ho,7,5,Lori,35,4
+79,My Father and My Son,Mehmet Ada Öztekin,19,29,Angel,36,4
+75,Se7en,David Fincher,7,4,William,8,3
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,6,Megan,41,1
+92,Jupiter Ascending,Lana Wachowski,19,31,Michelle,47,3
+95,Pushkar,Gayatri,0,39,Elizabeth,24,3
+12,Coco,Lee Unkrich,0,30,Steven,8,4
+60,WALL·E,Andrew Stanton,7,20,Kelly,33,3
+23,Inglourious Basterds,Quentin Tarantino,15,18,Daniel,53,5
+70,Turkish Ice-Cream,Can Ulkay,18,42,Gary,19,4
+61,Witness for the Prosecution,Billy Wilder,7,17,Anna,38,2
+49,The Green Mile,Frank Darabont,12,9,Christopher,55,4
+88,Apocalypse Now,Francis Ford Coppola,7,40,Tyler,20,1
+25,La vita e bella,Roberto Benigni,7,22,Rachel,29,5
+35,Requiem for a Dream,Darren Aronofsky,0,24,Bradley,42,4
+45,The Dark Knight Rises,Christopher Nolan,12,5,Lori,35,5
+55,The Matrix,Lana Wachowski,7,32,John,54,3
+12,Coco,Lee Unkrich,0,2,Nichole,8,4
+67,Lakeview Terrace,Tony Kaye,15,6,Megan,41,2
+81,Black Swan,Darren Aronofsky,7,37,Christine,58,1
+40,Soorarai Pottru,Sudha Kongara,15,40,Tyler,20,2
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,41,Michael,58,3
+13,Django Unchained,Quentin Tarantino,12,46,Ashley,26,3
+24,It's a Wonderful Life,Frank Capra,19,13,Jennifer,30,1
+96,Finding Nemo,Andrew Stanton,0,21,Megan,40,3
+34,Raiders of the Lost Ark,Steven Spielberg,15,36,Christopher,22,2
+1,1917,Sam Mendes,15,45,Jeffrey,38,5
+37,Sen to Chihiro no kamikakushi,Hayao Miyazaki,12,34,Victoria,54,1
+32,Once Upon a Time in the West,Sergio Leone,19,15,Amber,34,1
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,7,Matthew,29,5
+3,American History X,Tony Kaye,18,3,Travis,21,4
+94,Ship of Theseus,Rahi Anil Barve,15,41,Michael,58,3
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,33,Frank,36,3
+20,Goodfellas,Martin Scorsese,19,47,Luis,32,5
+5,Andhadhun,Sriram Raghavan,15,19,Kristin,55,4
+73,Toy Story 3,Lee Unkrich,0,5,Lori,35,2
+18,Gladiator,Ridley Scott,15,49,Tiffany,23,4
+23,Inglourious Basterds,Quentin Tarantino,15,24,Bradley,42,1
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,31,Michelle,47,5
+46,The Departed,Martin Scorsese,15,17,Anna,38,2
+29,Mononoke-hime,Hayao Miyazaki,0,4,William,8,3
+95,Pushkar,Gayatri,0,38,Barbara,47,3
+3,American History X,Tony Kaye,18,37,Christine,58,3
+73,Toy Story 3,Lee Unkrich,0,35,John,26,4
+21,Hotaru no haka,Isao Takahata,18,9,Christopher,55,1
+3,American History X,Tony Kaye,18,34,Victoria,54,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,25,Zachary,8,3
+39,Snatch,Guy Ritchie,7,19,Kristin,55,2
+12,Coco,Lee Unkrich,0,50,Martin,28,2
+68,Chupke Chupke,Hrishikesh Mukherjee,15,12,Emma,26,2
+60,WALL·E,Andrew Stanton,7,11,Bryan,54,3
+34,Raiders of the Lost Ark,Steven Spielberg,15,48,Frank,43,1
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,8,James,33,1
+86,American Graffiti,George Lucas,7,42,Gary,19,2
+92,Jupiter Ascending,Lana Wachowski,19,42,Gary,19,2
+21,Hotaru no haka,Isao Takahata,18,42,Gary,19,3
+2,Alien,Ridley Scott,18,33,Frank,36,1
+24,It's a Wonderful Life,Frank Capra,19,11,Bryan,54,1
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,50,Martin,28,4
+76,Milk,Gus Van Sant,15,22,Rachel,29,2
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,24,Bradley,42,1
+93,Valkyrie,Bryan Singer,19,19,Kristin,55,2
+4,Anand,Hrishikesh Mukherjee,7,41,Michael,58,1
+28,Modern Times,Charles Chaplin,18,46,Ashley,26,3
+63,Snowpiercer,Bong Joon Ho,7,19,Kristin,55,5
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,16,Jessica,44,4
+2,Alien,Ridley Scott,18,45,Jeffrey,38,3
+85,The Little Prince,Bob Persichetti,7,31,Michelle,47,4
+76,Milk,Gus Van Sant,15,44,Sherry,56,3
+23,Inglourious Basterds,Quentin Tarantino,15,42,Gary,19,4
+79,My Father and My Son,Mehmet Ada Öztekin,19,27,Billy,27,4
+44,The Dark Knight,Christopher Nolan,19,36,Christopher,22,1
+3,American History X,Tony Kaye,18,1,Cory,53,1
+38,Shichinin no samurai,Akira Kurosawa,12,1,Cory,53,4
+29,Mononoke-hime,Hayao Miyazaki,0,21,Megan,40,4
+32,Once Upon a Time in the West,Sergio Leone,19,28,Sarah,33,1
+93,Valkyrie,Bryan Singer,19,50,Martin,28,5
+8,Ayla: The Daughter of War,Can Ulkay,12,17,Anna,38,4
+29,Mononoke-hime,Hayao Miyazaki,0,20,Kelly,33,5
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,36,Christopher,22,5
+11,City Lights,Charles Chaplin,7,2,Nichole,8,2
+74,The Science of Sleep,Michel Gondry,15,26,Jennifer,37,4
+34,Raiders of the Lost Ark,Steven Spielberg,15,41,Michael,58,3
+30,Oldeuboi,Chan-wook Park,15,10,Matthew,56,1
+5,Andhadhun,Sriram Raghavan,15,20,Kelly,33,5
+90,Samba,Olivier Nakache,19,39,Elizabeth,24,1
+62,Mother,Bong Joon Ho,0,35,John,26,2
+11,City Lights,Charles Chaplin,7,45,Jeffrey,38,1
+88,Apocalypse Now,Francis Ford Coppola,7,47,Luis,32,1
+63,Snowpiercer,Bong Joon Ho,7,1,Cory,53,4
+25,La vita e bella,Roberto Benigni,7,7,Matthew,29,5
+6,Avengers: Endgame,Anthony Russo,15,1,Cory,53,4
+79,My Father and My Son,Mehmet Ada Öztekin,19,36,Christopher,22,1
+91,The Tourist,Florian Henckel von Donnersmarck,15,36,Christopher,22,1
+18,Gladiator,Ridley Scott,15,9,Christopher,55,4
+84,Irudhi Suttru,Sudha Kongara,18,12,Emma,26,2
+8,Ayla: The Daughter of War,Can Ulkay,12,9,Christopher,55,1
+12,Coco,Lee Unkrich,0,25,Zachary,8,2
+82,Rashomon,Akira Kurosawa,15,18,Daniel,53,5
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,6,Megan,41,1
+94,Ship of Theseus,Rahi Anil Barve,15,37,Christine,58,5
+17,Gisaengchung,Bong Joon Ho,18,40,Tyler,20,3
+32,Once Upon a Time in the West,Sergio Leone,19,10,Matthew,56,5
+62,Mother,Bong Joon Ho,0,27,Billy,27,5
+12,Coco,Lee Unkrich,0,6,Megan,41,5
+77,My Neighbors the Yamadas,Isao Takahata,7,49,Tiffany,23,3
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,21,Megan,40,1
+63,Snowpiercer,Bong Joon Ho,7,20,Kelly,33,5
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,35,John,26,2
+17,Gisaengchung,Bong Joon Ho,18,35,John,26,1
+25,La vita e bella,Roberto Benigni,7,36,Christopher,22,3
+42,Star Wars,George Lucas,19,21,Megan,40,3
+28,Modern Times,Charles Chaplin,18,38,Barbara,47,1
+4,Anand,Hrishikesh Mukherjee,7,25,Zachary,8,3
+21,Hotaru no haka,Isao Takahata,18,21,Megan,40,5
+92,Jupiter Ascending,Lana Wachowski,19,15,Amber,34,2
+61,Witness for the Prosecution,Billy Wilder,7,44,Sherry,56,1
+71,Where Do We Go Now?,Nadine Labaki,12,35,John,26,2
+82,Rashomon,Akira Kurosawa,15,37,Christine,58,5
+31,Once Upon a Time in America,Sergio Leone,7,25,Zachary,8,3
+73,Toy Story 3,Lee Unkrich,0,4,William,8,2
+51,The Lion King,Roger Allers,0,38,Barbara,47,4
+32,Once Upon a Time in the West,Sergio Leone,19,5,Lori,35,1
+51,The Lion King,Roger Allers,0,35,John,26,4
+34,Raiders of the Lost Ark,Steven Spielberg,15,23,Jay,53,5
+69,Johnny Gaddaar,Sriram Raghavan,15,45,Jeffrey,38,3
+12,Coco,Lee Unkrich,0,4,William,8,2
+44,The Dark Knight,Christopher Nolan,19,6,Megan,41,3
+12,Coco,Lee Unkrich,0,3,Travis,21,5
+6,Avengers: Endgame,Anthony Russo,15,7,Matthew,29,4
+61,Witness for the Prosecution,Billy Wilder,7,30,Steven,8,2
+39,Snatch,Guy Ritchie,7,1,Cory,53,4
+3,American History X,Tony Kaye,18,20,Kelly,33,3
+18,Gladiator,Ridley Scott,15,22,Rachel,29,5
+5,Andhadhun,Sriram Raghavan,15,47,Luis,32,1
+31,Once Upon a Time in America,Sergio Leone,7,4,William,8,1
+12,Coco,Lee Unkrich,0,43,Richard,8,1
+1,1917,Sam Mendes,15,14,Angela,58,2
+70,Turkish Ice-Cream,Can Ulkay,18,7,Matthew,29,5
+36,Saving Private Ryan,Steven Spielberg,0,36,Christopher,22,4
+94,Ship of Theseus,Rahi Anil Barve,15,50,Martin,28,4
+7,Avengers: Infinity War,Anthony Russo,18,44,Sherry,56,5
+80,The Handmaiden,Chan-wook Park,19,45,Jeffrey,38,2
+36,Saving Private Ryan,Steven Spielberg,0,22,Rachel,29,4
+92,Jupiter Ascending,Lana Wachowski,19,1,Cory,53,1
+6,Avengers: Endgame,Anthony Russo,15,24,Bradley,42,5
+83,"Lock, Stock and Two Smoking Barrels",Guy Ritchie,19,18,Daniel,53,4
+60,WALL·E,Andrew Stanton,7,42,Gary,19,2
+63,Snowpiercer,Bong Joon Ho,7,43,Richard,8,1
+2,Alien,Ridley Scott,18,50,Martin,28,2
+68,Chupke Chupke,Hrishikesh Mukherjee,15,50,Martin,28,1
+50,The Intouchables,Olivier Nakache,18,8,James,33,4
+63,Snowpiercer,Bong Joon Ho,7,17,Anna,38,5
+55,The Matrix,Lana Wachowski,7,30,Steven,8,2
+56,The Shining,Stanley Kubrick,15,35,John,26,3
+36,Saving Private Ryan,Steven Spielberg,0,45,Jeffrey,38,2
+1,1917,Sam Mendes,15,41,Michael,58,2
+90,Samba,Olivier Nakache,19,29,Angel,36,5
+21,Hotaru no haka,Isao Takahata,18,31,Michelle,47,1
+89,The Majestic,Frank Darabont,7,29,Angel,36,2
+48,The Great Dictator,Charles Chaplin,0,23,Jay,53,4
+71,Where Do We Go Now?,Nadine Labaki,12,3,Travis,21,3
+12,Coco,Lee Unkrich,0,17,Anna,38,5
+48,The Great Dictator,Charles Chaplin,0,28,Sarah,33,3
+33,Paths of Glory,Stanley Kubrick,18,36,Christopher,22,1
+85,The Little Prince,Bob Persichetti,7,20,Kelly,33,1
+32,Once Upon a Time in the West,Sergio Leone,19,14,Angela,58,2
+25,La vita e bella,Roberto Benigni,7,14,Angela,58,3
+66,Road to Perdition,Sam Mendes,15,3,Travis,21,5
+17,Gisaengchung,Bong Joon Ho,18,9,Christopher,55,4
+12,Coco,Lee Unkrich,0,7,Matthew,29,3
+51,The Lion King,Roger Allers,0,37,Christine,58,1
+1,1917,Sam Mendes,15,18,Daniel,53,4
+4,Anand,Hrishikesh Mukherjee,7,39,Elizabeth,24,5
+92,Jupiter Ascending,Lana Wachowski,19,46,Ashley,26,5
+7,Avengers: Infinity War,Anthony Russo,18,14,Angela,58,5
+10,Casablanca,Michael Curtiz,18,45,Jeffrey,38,2
+60,WALL·E,Andrew Stanton,7,15,Amber,34,2
+72,Yankee Doodle Dandy,Michael Curtiz,19,34,Victoria,54,1
+78,Mr. Smith Goes to Washington,Frank Capra,19,9,Christopher,55,3
+79,My Father and My Son,Mehmet Ada Öztekin,19,21,Megan,40,3
+77,My Neighbors the Yamadas,Isao Takahata,7,25,Zachary,8,5
+31,Once Upon a Time in America,Sergio Leone,7,46,Ashley,26,5
+81,Black Swan,Darren Aronofsky,7,31,Michelle,47,5
+16,Fight Club,David Fincher,18,50,Martin,28,3
+71,Where Do We Go Now?,Nadine Labaki,12,26,Jennifer,37,1
+65,Beauty and the Beast,Roger Allers,7,2,Nichole,8,2
+91,The Tourist,Florian Henckel von Donnersmarck,15,14,Angela,58,5
+92,Jupiter Ascending,Lana Wachowski,19,24,Bradley,42,1
+67,Lakeview Terrace,Tony Kaye,15,39,Elizabeth,24,3
+84,Irudhi Suttru,Sudha Kongara,18,40,Tyler,20,1
+7,Avengers: Infinity War,Anthony Russo,18,17,Anna,38,2
+7,Avengers: Infinity War,Anthony Russo,18,32,John,54,4
+46,The Departed,Martin Scorsese,15,26,Jennifer,37,1
+57,The Usual Suspects,Bryan Singer,0,47,Luis,32,5
+60,WALL·E,Andrew Stanton,7,43,Richard,8,1
+76,Milk,Gus Van Sant,15,19,Kristin,55,1
+7,Avengers: Infinity War,Anthony Russo,18,31,Michelle,47,4
+58,Tumbbad,Rahi Anil Barve,15,1,Cory,53,3
+63,Snowpiercer,Bong Joon Ho,7,29,Angel,36,3
+1,1917,Sam Mendes,15,33,Frank,36,5
+14,2001: A Space Odyssey,Stanley Kubrick,12,36,Christopher,22,4
+57,The Usual Suspects,Bryan Singer,0,10,Matthew,56,2
+92,Jupiter Ascending,Lana Wachowski,19,41,Michael,58,2
+73,Toy Story 3,Lee Unkrich,0,2,Nichole,8,2
+19,Good Will Hunting,Gus Van Sant,12,28,Sarah,33,2
+70,Turkish Ice-Cream,Can Ulkay,18,35,John,26,4
+31,Once Upon a Time in America,Sergio Leone,7,50,Martin,28,1
+35,Requiem for a Dream,Darren Aronofsky,0,43,Richard,8,3
+55,The Matrix,Lana Wachowski,7,7,Matthew,29,4
+60,WALL·E,Andrew Stanton,7,48,Frank,43,3
+44,The Dark Knight,Christopher Nolan,19,39,Elizabeth,24,4
+68,Chupke Chupke,Hrishikesh Mukherjee,15,13,Jennifer,30,2
+5,Andhadhun,Sriram Raghavan,15,22,Rachel,29,5
+25,La vita e bella,Roberto Benigni,7,34,Victoria,54,4
+57,The Usual Suspects,Bryan Singer,0,39,Elizabeth,24,5
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,40,Tyler,20,1
+64,Open Season,Roger Allers,18,10,Matthew,56,1
+66,Road to Perdition,Sam Mendes,15,20,Kelly,33,4
+61,Witness for the Prosecution,Billy Wilder,7,2,Nichole,8,4
+40,Soorarai Pottru,Sudha Kongara,15,22,Rachel,29,3
+39,Snatch,Guy Ritchie,7,48,Frank,43,5
+28,Modern Times,Charles Chaplin,18,12,Emma,26,2
+79,My Father and My Son,Mehmet Ada Öztekin,19,16,Jessica,44,4
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,12,Emma,26,5
+19,Good Will Hunting,Gus Van Sant,12,22,Rachel,29,3
+56,The Shining,Stanley Kubrick,15,27,Billy,27,5
+45,The Dark Knight Rises,Christopher Nolan,12,50,Martin,28,2
+81,Black Swan,Darren Aronofsky,7,18,Daniel,53,1
+81,Black Swan,Darren Aronofsky,7,25,Zachary,8,5
+39,Snatch,Guy Ritchie,7,43,Richard,8,2
+25,La vita e bella,Roberto Benigni,7,25,Zachary,8,4
+72,Yankee Doodle Dandy,Michael Curtiz,19,14,Angela,58,3
+45,The Dark Knight Rises,Christopher Nolan,12,14,Angela,58,1
+21,Hotaru no haka,Isao Takahata,18,17,Anna,38,1
+12,Coco,Lee Unkrich,0,30,Steven,8,3
+79,My Father and My Son,Mehmet Ada Öztekin,19,22,Rachel,29,2
+12,Coco,Lee Unkrich,0,33,Frank,36,1
+48,The Great Dictator,Charles Chaplin,0,9,Christopher,55,2
+85,The Little Prince,Bob Persichetti,7,30,Steven,8,2
+16,Fight Club,David Fincher,18,8,James,33,4
+25,La vita e bella,Roberto Benigni,7,47,Luis,32,2
+21,Hotaru no haka,Isao Takahata,18,45,Jeffrey,38,4
+58,Tumbbad,Rahi Anil Barve,15,8,James,33,2
+97,Double Indemnity,Billy Wilder,19,18,Daniel,53,5
+62,Mother,Bong Joon Ho,0,25,Zachary,8,1
+68,Chupke Chupke,Hrishikesh Mukherjee,15,27,Billy,27,1
+12,Coco,Lee Unkrich,0,30,Steven,8,3
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,49,Tiffany,23,2
+22,"Il buono, il brutto, il cattivo",Sergio Leone,7,1,Cory,53,2
+81,Black Swan,Darren Aronofsky,7,10,Matthew,56,3
+33,Paths of Glory,Stanley Kubrick,18,31,Michelle,47,1
+89,The Majestic,Frank Darabont,7,4,William,8,5
+89,The Majestic,Frank Darabont,7,33,Frank,36,3
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,29,Angel,36,5
+86,American Graffiti,George Lucas,7,17,Anna,38,4
+39,Snatch,Guy Ritchie,7,43,Richard,8,4
+9,Capharnaüm,Nadine Labaki,18,8,James,33,1
+3,American History X,Tony Kaye,18,35,John,26,2
+73,Toy Story 3,Lee Unkrich,0,43,Richard,8,2
+16,Fight Club,David Fincher,18,42,Gary,19,2
+88,Apocalypse Now,Francis Ford Coppola,7,22,Rachel,29,3
+47,The Godfather: Part II,Francis Ford Coppola,15,13,Jennifer,30,5
+29,Mononoke-hime,Hayao Miyazaki,0,18,Daniel,53,5
+49,The Green Mile,Frank Darabont,12,5,Lori,35,4
+21,Hotaru no haka,Isao Takahata,18,12,Emma,26,1
+35,Requiem for a Dream,Darren Aronofsky,0,41,Michael,58,1
+31,Once Upon a Time in America,Sergio Leone,7,2,Nichole,8,4
+62,Mother,Bong Joon Ho,0,36,Christopher,22,3
+76,Milk,Gus Van Sant,15,39,Elizabeth,24,4
+30,Oldeuboi,Chan-wook Park,15,46,Ashley,26,2
+51,The Lion King,Roger Allers,0,36,Christopher,22,5
+46,The Departed,Martin Scorsese,15,45,Jeffrey,38,4
+19,Good Will Hunting,Gus Van Sant,12,10,Matthew,56,3
+25,La vita e bella,Roberto Benigni,7,33,Frank,36,2
+23,Inglourious Basterds,Quentin Tarantino,15,14,Angela,58,4
+36,Saving Private Ryan,Steven Spielberg,0,10,Matthew,56,5
+87,Never Say Never Again,Irvin Kershner,15,44,Sherry,56,3
+1,1917,Sam Mendes,15,29,Angel,36,1
+71,Where Do We Go Now?,Nadine Labaki,12,40,Tyler,20,2
+86,American Graffiti,George Lucas,7,39,Elizabeth,24,1
+81,Black Swan,Darren Aronofsky,7,8,James,33,5
+18,Gladiator,Ridley Scott,15,32,John,54,5
+86,American Graffiti,George Lucas,7,22,Rachel,29,1
+35,Requiem for a Dream,Darren Aronofsky,0,28,Sarah,33,4
+64,Open Season,Roger Allers,18,8,James,33,4
+55,The Matrix,Lana Wachowski,7,35,John,26,1
+69,Johnny Gaddaar,Sriram Raghavan,15,8,James,33,1
+20,Goodfellas,Martin Scorsese,19,39,Elizabeth,24,5
+36,Saving Private Ryan,Steven Spielberg,0,19,Kristin,55,2
+31,Once Upon a Time in America,Sergio Leone,7,34,Victoria,54,3
+3,American History X,Tony Kaye,18,24,Bradley,42,3
+27,Miracle in cell NO.7,Mehmet Ada _ztekin,15,34,Victoria,54,1
+16,Fight Club,David Fincher,18,9,Christopher,55,4
+61,Witness for the Prosecution,Billy Wilder,7,7,Matthew,29,4
+7,Avengers: Infinity War,Anthony Russo,18,5,Lori,35,1
+30,Oldeuboi,Chan-wook Park,15,28,Sarah,33,3
+11,City Lights,Charles Chaplin,7,30,Steven,8,3
+49,The Green Mile,Frank Darabont,12,27,Billy,27,2
+87,Never Say Never Again,Irvin Kershner,15,33,Frank,36,2
+96,Finding Nemo,Andrew Stanton,0,34,Victoria,54,3
+31,Once Upon a Time in America,Sergio Leone,7,24,Bradley,42,1
+47,The Godfather: Part II,Francis Ford Coppola,15,35,John,26,3
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,11,Bryan,54,1
+3,American History X,Tony Kaye,18,8,James,33,2
+61,Witness for the Prosecution,Billy Wilder,7,23,Jay,53,1
+23,Inglourious Basterds,Quentin Tarantino,15,48,Frank,43,3
+3,American History X,Tony Kaye,18,21,Megan,40,3
+84,Irudhi Suttru,Sudha Kongara,18,26,Jennifer,37,3
+8,Ayla: The Daughter of War,Can Ulkay,12,15,Amber,34,5
+63,Snowpiercer,Bong Joon Ho,7,34,Victoria,54,4
+23,Inglourious Basterds,Quentin Tarantino,15,41,Michael,58,3
+40,Soorarai Pottru,Sudha Kongara,15,41,Michael,58,5
+27,Miracle in cell NO.7,Mehmet Ada _ztekin,15,35,John,26,1
+89,The Majestic,Frank Darabont,7,15,Amber,34,3
+29,Mononoke-hime,Hayao Miyazaki,0,5,Lori,35,4
+76,Milk,Gus Van Sant,15,31,Michelle,47,5
+67,Lakeview Terrace,Tony Kaye,15,11,Bryan,54,3
+62,Mother,Bong Joon Ho,0,47,Luis,32,1
+91,The Tourist,Florian Henckel von Donnersmarck,15,17,Anna,38,5
+58,Tumbbad,Rahi Anil Barve,15,39,Elizabeth,24,5
+97,Double Indemnity,Billy Wilder,19,3,Travis,21,4
+60,WALL·E,Andrew Stanton,7,38,Barbara,47,2
+16,Fight Club,David Fincher,18,23,Jay,53,5
+38,Shichinin no samurai,Akira Kurosawa,12,3,Travis,21,3
+3,American History X,Tony Kaye,18,42,Gary,19,4
+59,Vikram Vedha,Gayatri,19,34,Victoria,54,2
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,46,Ashley,26,1
+70,Turkish Ice-Cream,Can Ulkay,18,44,Sherry,56,1
+39,Snatch,Guy Ritchie,7,29,Angel,36,2
+72,Yankee Doodle Dandy,Michael Curtiz,19,28,Sarah,33,5
+81,Black Swan,Darren Aronofsky,7,19,Kristin,55,3
+19,Good Will Hunting,Gus Van Sant,12,7,Matthew,29,3
+34,Raiders of the Lost Ark,Steven Spielberg,15,8,James,33,3
+89,The Majestic,Frank Darabont,7,38,Barbara,47,2
+12,Coco,Lee Unkrich,0,8,James,33,4
+55,The Matrix,Lana Wachowski,7,21,Megan,40,5
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,47,Luis,32,4
+68,Chupke Chupke,Hrishikesh Mukherjee,15,22,Rachel,29,4
+59,Vikram Vedha,Gayatri,19,12,Emma,26,2
+39,Snatch,Guy Ritchie,7,23,Jay,53,5
+23,Inglourious Basterds,Quentin Tarantino,15,27,Billy,27,4
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,37,Christine,58,1
+85,The Little Prince,Bob Persichetti,7,40,Tyler,20,2
+16,Fight Club,David Fincher,18,34,Victoria,54,3
+55,The Matrix,Lana Wachowski,7,1,Cory,53,3
+29,Mononoke-hime,Hayao Miyazaki,0,13,Jennifer,30,2
+2,Alien,Ridley Scott,18,6,Megan,41,3
+3,American History X,Tony Kaye,18,16,Jessica,44,5
+34,Raiders of the Lost Ark,Steven Spielberg,15,3,Travis,21,5
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,40,Tyler,20,2
+96,Finding Nemo,Andrew Stanton,0,26,Jennifer,37,3
+25,La vita e bella,Roberto Benigni,7,30,Steven,8,5
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,14,Angela,58,1
+19,Good Will Hunting,Gus Van Sant,12,44,Sherry,56,1
+31,Once Upon a Time in America,Sergio Leone,7,4,William,8,1
+36,Saving Private Ryan,Steven Spielberg,0,38,Barbara,47,1
+65,Beauty and the Beast,Roger Allers,7,2,Nichole,8,1
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,40,Tyler,20,3
+46,The Departed,Martin Scorsese,15,13,Jennifer,30,1
+12,Coco,Lee Unkrich,0,11,Bryan,54,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,37,Christine,58,3
+56,The Shining,Stanley Kubrick,15,7,Matthew,29,1
+25,La vita e bella,Roberto Benigni,7,42,Gary,19,2
+96,Finding Nemo,Andrew Stanton,0,24,Bradley,42,3
+94,Ship of Theseus,Rahi Anil Barve,15,26,Jennifer,37,5
+81,Black Swan,Darren Aronofsky,7,45,Jeffrey,38,1
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,14,Angela,58,3
+2,Alien,Ridley Scott,18,37,Christine,58,3
+49,The Green Mile,Frank Darabont,12,3,Travis,21,1
+81,Black Swan,Darren Aronofsky,7,29,Angel,36,5
+97,Double Indemnity,Billy Wilder,19,38,Barbara,47,1
+39,Snatch,Guy Ritchie,7,14,Angela,58,5
+55,The Matrix,Lana Wachowski,7,24,Bradley,42,1
+17,Gisaengchung,Bong Joon Ho,18,37,Christine,58,3
+33,Paths of Glory,Stanley Kubrick,18,21,Megan,40,5
+4,Anand,Hrishikesh Mukherjee,7,38,Barbara,47,5
+67,Lakeview Terrace,Tony Kaye,15,10,Matthew,56,5
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,45,Jeffrey,38,2
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,1,Cory,53,1
+57,The Usual Suspects,Bryan Singer,0,30,Steven,8,3
+78,Mr. Smith Goes to Washington,Frank Capra,19,3,Travis,21,4
+36,Saving Private Ryan,Steven Spielberg,0,28,Sarah,33,3
+94,Ship of Theseus,Rahi Anil Barve,15,15,Amber,34,4
+42,Star Wars,George Lucas,19,15,Amber,34,4
+3,American History X,Tony Kaye,18,29,Angel,36,4
+81,Black Swan,Darren Aronofsky,7,6,Megan,41,3
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,28,Sarah,33,1
+87,Never Say Never Again,Irvin Kershner,15,3,Travis,21,4
+18,Gladiator,Ridley Scott,15,46,Ashley,26,5
+7,Avengers: Infinity War,Anthony Russo,18,45,Jeffrey,38,4
+55,The Matrix,Lana Wachowski,7,42,Gary,19,3
+19,Good Will Hunting,Gus Van Sant,12,32,John,54,4
+21,Hotaru no haka,Isao Takahata,18,5,Lori,35,1
+86,American Graffiti,George Lucas,7,10,Matthew,56,5
+5,Andhadhun,Sriram Raghavan,15,37,Christine,58,3
+75,Se7en,David Fincher,7,47,Luis,32,1
+76,Milk,Gus Van Sant,15,45,Jeffrey,38,3
+48,The Great Dictator,Charles Chaplin,0,30,Steven,8,4
+9,Capharnaüm,Nadine Labaki,18,49,Tiffany,23,3
+17,Gisaengchung,Bong Joon Ho,18,47,Luis,32,5
+50,The Intouchables,Olivier Nakache,18,31,Michelle,47,2
+35,Requiem for a Dream,Darren Aronofsky,0,26,Jennifer,37,3
+77,My Neighbors the Yamadas,Isao Takahata,7,8,James,33,4
+49,The Green Mile,Frank Darabont,12,28,Sarah,33,3
+21,Hotaru no haka,Isao Takahata,18,24,Bradley,42,1
+91,The Tourist,Florian Henckel von Donnersmarck,15,50,Martin,28,1
+5,Andhadhun,Sriram Raghavan,15,6,Megan,41,3
+61,Witness for the Prosecution,Billy Wilder,7,21,Megan,40,4
+57,The Usual Suspects,Bryan Singer,0,16,Jessica,44,5
+13,Django Unchained,Quentin Tarantino,12,8,James,33,2
+9,Capharnaüm,Nadine Labaki,18,21,Megan,40,3
+32,Once Upon a Time in the West,Sergio Leone,19,22,Rachel,29,2
+49,The Green Mile,Frank Darabont,12,44,Sherry,56,4
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,20,Kelly,33,1
+39,Snatch,Guy Ritchie,7,43,Richard,8,4
+58,Tumbbad,Rahi Anil Barve,15,24,Bradley,42,3
+14,2001: A Space Odyssey,Stanley Kubrick,12,38,Barbara,47,3
+77,My Neighbors the Yamadas,Isao Takahata,7,45,Jeffrey,38,3
+81,Black Swan,Darren Aronofsky,7,41,Michael,58,2
+28,Modern Times,Charles Chaplin,18,26,Jennifer,37,2
+6,Avengers: Endgame,Anthony Russo,15,31,Michelle,47,1
+12,Coco,Lee Unkrich,0,14,Angela,58,5
+56,The Shining,Stanley Kubrick,15,1,Cory,53,4
+9,Capharnaüm,Nadine Labaki,18,19,Kristin,55,1
+80,The Handmaiden,Chan-wook Park,19,14,Angela,58,2
+14,2001: A Space Odyssey,Stanley Kubrick,12,29,Angel,36,4
+34,Raiders of the Lost Ark,Steven Spielberg,15,37,Christine,58,5
+36,Saving Private Ryan,Steven Spielberg,0,42,Gary,19,1
+70,Turkish Ice-Cream,Can Ulkay,18,41,Michael,58,1
+20,Goodfellas,Martin Scorsese,19,16,Jessica,44,2
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,4,William,8,1
+49,The Green Mile,Frank Darabont,12,17,Anna,38,1
+10,Casablanca,Michael Curtiz,18,8,James,33,3
+82,Rashomon,Akira Kurosawa,15,50,Martin,28,3
+16,Fight Club,David Fincher,18,12,Emma,26,2
+82,Rashomon,Akira Kurosawa,15,17,Anna,38,3
+92,Jupiter Ascending,Lana Wachowski,19,39,Elizabeth,24,5
+95,Pushkar,Gayatri,0,50,Martin,28,2
+86,American Graffiti,George Lucas,7,21,Megan,40,4
+75,Se7en,David Fincher,7,20,Kelly,33,1
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,19,Kristin,55,3
+66,Road to Perdition,Sam Mendes,15,8,James,33,4
+81,Black Swan,Darren Aronofsky,7,17,Anna,38,1
+63,Snowpiercer,Bong Joon Ho,7,36,Christopher,22,3
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,16,Jessica,44,3
+48,The Great Dictator,Charles Chaplin,0,36,Christopher,22,4
+11,City Lights,Charles Chaplin,7,35,John,26,3
+62,Mother,Bong Joon Ho,0,15,Amber,34,5
+60,WALL·E,Andrew Stanton,7,19,Kristin,55,4
+72,Yankee Doodle Dandy,Michael Curtiz,19,45,Jeffrey,38,5
+84,Irudhi Suttru,Sudha Kongara,18,20,Kelly,33,2
+44,The Dark Knight,Christopher Nolan,19,44,Sherry,56,3
+73,Toy Story 3,Lee Unkrich,0,43,Richard,8,5
+4,Anand,Hrishikesh Mukherjee,7,4,William,8,3
+51,The Lion King,Roger Allers,0,14,Angela,58,3
+62,Mother,Bong Joon Ho,0,6,Megan,41,2
+21,Hotaru no haka,Isao Takahata,18,11,Bryan,54,1
+84,Irudhi Suttru,Sudha Kongara,18,19,Kristin,55,4
+74,The Science of Sleep,Michel Gondry,15,46,Ashley,26,3
+64,Open Season,Roger Allers,18,28,Sarah,33,4
+84,Irudhi Suttru,Sudha Kongara,18,41,Michael,58,1
+35,Requiem for a Dream,Darren Aronofsky,0,11,Bryan,54,3
+55,The Matrix,Lana Wachowski,7,41,Michael,58,2
+25,La vita e bella,Roberto Benigni,7,7,Matthew,29,5
+70,Turkish Ice-Cream,Can Ulkay,18,10,Matthew,56,3
+59,Vikram Vedha,Gayatri,19,10,Matthew,56,4
+28,Modern Times,Charles Chaplin,18,6,Megan,41,5
+25,La vita e bella,Roberto Benigni,7,47,Luis,32,4
+11,City Lights,Charles Chaplin,7,19,Kristin,55,4
+18,Gladiator,Ridley Scott,15,42,Gary,19,3
+48,The Great Dictator,Charles Chaplin,0,20,Kelly,33,4
+35,Requiem for a Dream,Darren Aronofsky,0,4,William,8,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,12,Emma,26,2
+79,My Father and My Son,Mehmet Ada Öztekin,19,39,Elizabeth,24,1
+46,The Departed,Martin Scorsese,15,24,Bradley,42,5
+84,Irudhi Suttru,Sudha Kongara,18,34,Victoria,54,3
+41,Spider-Man: Into the Spider-Verse,Bob Persichetti,15,46,Ashley,26,2
+4,Anand,Hrishikesh Mukherjee,7,45,Jeffrey,38,4
+59,Vikram Vedha,Gayatri,19,38,Barbara,47,2
+89,The Majestic,Frank Darabont,7,17,Anna,38,2
+53,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,18,34,Victoria,54,4
+67,Lakeview Terrace,Tony Kaye,15,28,Sarah,33,3
+31,Once Upon a Time in America,Sergio Leone,7,20,Kelly,33,2
+91,The Tourist,Florian Henckel von Donnersmarck,15,29,Angel,36,5
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,39,Elizabeth,24,1
+8,Ayla: The Daughter of War,Can Ulkay,12,19,Kristin,55,1
+75,Se7en,David Fincher,7,50,Martin,28,3
+82,Rashomon,Akira Kurosawa,15,26,Jennifer,37,2
+20,Goodfellas,Martin Scorsese,19,44,Sherry,56,2
+52,The Lives of Others,Florian Henckel von Donnersmarck,12,27,Billy,27,4
+1,1917,Sam Mendes,15,46,Ashley,26,4
+72,Yankee Doodle Dandy,Michael Curtiz,19,50,Martin,28,5
+35,Requiem for a Dream,Darren Aronofsky,0,36,Christopher,22,2
+66,Road to Perdition,Sam Mendes,15,6,Megan,41,4
+31,Once Upon a Time in America,Sergio Leone,7,49,Tiffany,23,3
+34,Raiders of the Lost Ark,Steven Spielberg,15,26,Jennifer,37,3
+75,Se7en,David Fincher,7,7,Matthew,29,1
+78,Mr. Smith Goes to Washington,Frank Capra,19,27,Billy,27,1
+5,Andhadhun,Sriram Raghavan,15,17,Anna,38,5
+60,WALL·E,Andrew Stanton,7,33,Frank,36,3
+84,Irudhi Suttru,Sudha Kongara,18,16,Jessica,44,3
+84,Irudhi Suttru,Sudha Kongara,18,17,Anna,38,2
+82,Rashomon,Akira Kurosawa,15,9,Christopher,55,2
+61,Witness for the Prosecution,Billy Wilder,7,4,William,8,2
+36,Saving Private Ryan,Steven Spielberg,0,17,Anna,38,1
+29,Mononoke-hime,Hayao Miyazaki,0,30,Steven,8,1
+85,The Little Prince,Bob Persichetti,7,33,Frank,36,5
+18,Gladiator,Ridley Scott,15,21,Megan,40,3
+61,Witness for the Prosecution,Billy Wilder,7,6,Megan,41,5
+23,Inglourious Basterds,Quentin Tarantino,15,23,Jay,53,1
+31,Once Upon a Time in America,Sergio Leone,7,36,Christopher,22,1
+69,Johnny Gaddaar,Sriram Raghavan,15,10,Matthew,56,5
+15,Eternal Sunshine of the Spotless Mind,Michel Gondry,12,1,Cory,53,4
+10,Casablanca,Michael Curtiz,18,11,Bryan,54,1
+81,Black Swan,Darren Aronofsky,7,20,Kelly,33,4
+3,American History X,Tony Kaye,18,12,Emma,26,1
+95,Pushkar,Gayatri,0,13,Jennifer,30,3
+80,The Handmaiden,Chan-wook Park,19,39,Elizabeth,24,1
+71,Where Do We Go Now?,Nadine Labaki,12,17,Anna,38,2
+45,The Dark Knight Rises,Christopher Nolan,12,10,Matthew,56,4
+60,WALL·E,Andrew Stanton,7,24,Bradley,42,2
+96,Finding Nemo,Andrew Stanton,0,8,James,33,2
+85,The Little Prince,Bob Persichetti,7,3,Travis,21,2
+16,Fight Club,David Fincher,18,20,Kelly,33,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,46,Ashley,26,2
+32,Once Upon a Time in the West,Sergio Leone,19,3,Travis,21,3
+78,Mr. Smith Goes to Washington,Frank Capra,19,35,John,26,2
+2,Alien,Ridley Scott,18,9,Christopher,55,5
+43,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,19,47,Luis,32,3
+78,Mr. Smith Goes to Washington,Frank Capra,19,19,Kristin,55,3
+73,Toy Story 3,Lee Unkrich,0,37,Christine,58,1
+19,Good Will Hunting,Gus Van Sant,12,42,Gary,19,1
+17,Gisaengchung,Bong Joon Ho,18,41,Michael,58,5
+91,The Tourist,Florian Henckel von Donnersmarck,15,3,Travis,21,3
+96,Finding Nemo,Andrew Stanton,0,2,Nichole,8,4
+29,Mononoke-hime,Hayao Miyazaki,0,49,Tiffany,23,4
+93,Valkyrie,Bryan Singer,19,17,Anna,38,2
+88,Apocalypse Now,Francis Ford Coppola,7,34,Victoria,54,4
+40,Soorarai Pottru,Sudha Kongara,15,12,Emma,26,3
+97,Double Indemnity,Billy Wilder,19,19,Kristin,55,5
+39,Snatch,Guy Ritchie,7,8,James,33,4
+76,Milk,Gus Van Sant,15,20,Kelly,33,3
+78,Mr. Smith Goes to Washington,Frank Capra,19,47,Luis,32,5
+5,Andhadhun,Sriram Raghavan,15,11,Bryan,54,2
+14,2001: A Space Odyssey,Stanley Kubrick,12,22,Rachel,29,5
+51,The Lion King,Roger Allers,0,24,Bradley,42,4
+54,The Lord of the Rings: The Return of the King,Peter Jackson,0,25,Zachary,8,5
+9,Capharnaüm,Nadine Labaki,18,39,Elizabeth,24,1
+47,The Godfather: Part II,Francis Ford Coppola,15,6,Megan,41,1
+67,Lakeview Terrace,Tony Kaye,15,1,Cory,53,2
+39,Snatch,Guy Ritchie,7,30,Steven,8,3
+95,Pushkar,Gayatri,0,2,Nichole,8,3
+60,WALL·E,Andrew Stanton,7,2,Nichole,8,2
+88,Apocalypse Now,Francis Ford Coppola,7,45,Jeffrey,38,4
+4,Anand,Hrishikesh Mukherjee,7,42,Gary,19,3
+18,Gladiator,Ridley Scott,15,31,Michelle,47,1
+31,Once Upon a Time in America,Sergio Leone,7,9,Christopher,55,3
+76,Milk,Gus Van Sant,15,24,Bradley,42,3
+16,Fight Club,David Fincher,18,14,Angela,58,5
+77,My Neighbors the Yamadas,Isao Takahata,7,10,Matthew,56,1
+63,Snowpiercer,Bong Joon Ho,7,14,Angela,58,2
+72,Yankee Doodle Dandy,Michael Curtiz,19,48,Frank,43,3
+62,Mother,Bong Joon Ho,0,30,Steven,8,3
+33,Paths of Glory,Stanley Kubrick,18,27,Billy,27,3
+55,The Matrix,Lana Wachowski,7,3,Travis,21,3
+74,The Science of Sleep,Michel Gondry,15,37,Christine,58,2
+93,Valkyrie,Bryan Singer,19,10,Matthew,56,5
+91,The Tourist,Florian Henckel von Donnersmarck,15,27,Billy,27,1
+70,Turkish Ice-Cream,Can Ulkay,18,18,Daniel,53,2
+89,The Majestic,Frank Darabont,7,46,Ashley,26,5
+96,Finding Nemo,Andrew Stanton,0,6,Megan,41,4
+27,Miracle in cell NO.7,Mehmet Ada _ztekin,15,29,Angel,36,5
+8,Ayla: The Daughter of War,Can Ulkay,12,36,Christopher,22,5
