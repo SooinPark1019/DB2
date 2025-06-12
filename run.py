@@ -1,5 +1,5 @@
 from service import (
-    initialize_database, print_DVDs
+    initialize_database, print_DVDs, insert_DVD, remove_DVD,
 )
 
 def print_menu():
@@ -24,14 +24,14 @@ def print_menu():
 menu_actions = {
     1: initialize_database,
     2: print_DVDs,
+    4: insert_DVD,
+    5: remove_DVD,
 }
 
 def main():
+    print_menu()
     while True:
-        print_menu()
-
         menu = int(input('Select your action: '))
-
         if menu == 14:
             print('Bye!')
             break

@@ -209,3 +209,32 @@ def insert_DVD():
         # 커밋은 context manager가 해줄 것
 
     print(MSG_DVD_INSERT)
+
+def remove_DVD():
+    DVD_id = input('DVD ID: ').strip()
+    # 1. 정수ID 여부 체크
+    dvd_id = to_positive_int(DVD_id)
+    if dvd_id is None:
+        print(ERR_DVD_NOT_EXIST.format(DVD_id))
+        return
+
+    with db_cursor() as (conn, cursor):
+        # 2. 존재 여부 체크
+        cursor.execute("SELECT 1 FROM dvd WHERE d_id = %s", (dvd_id,))
+        if not cursor.fetchone():
+            print(ERR_DVD_NOT_EXIST.format(dvd_id))
+            return
+
+        # 3. 대출중 여부 체크
+        cursor.execute("""
+            SELECT 1 FROM borrowing
+            WHERE d_id = %s AND is_returned = 0
+        """, (dvd_id,))
+        if cursor.fetchone():
+            print(ERR_DVD_BORROWED_CANNOT_DELETE)
+            return
+
+        # 4. DELETE (ON DELETE CASCADE로 연관된 borrowing, rate도 삭제)
+        cursor.execute("DELETE FROM dvd WHERE d_id = %s", (dvd_id,))
+
+    print(MSG_DVD_REMOVE)
