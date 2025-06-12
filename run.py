@@ -1,5 +1,5 @@
 from service import (
-    initialize_database, print_DVDs, insert_DVD, remove_DVD, print_users, insert_user, remove_user, checkout_DVD, return_and_rate_DVD, print_borrowing_status_for_user
+    initialize_database, print_DVDs, insert_DVD, remove_DVD, print_users, insert_user, remove_user, checkout_DVD, return_and_rate_DVD, print_borrowing_status_for_user, search
 )
 
 def print_menu():
@@ -31,7 +31,8 @@ menu_actions = {
     7: remove_user,
     8: checkout_DVD,
     9: return_and_rate_DVD,
-    10: print_borrowing_status_for_user
+    10: print_borrowing_status_for_user,
+    11: search
 }
 
 def main():
