@@ -1,6 +1,6 @@
 from db import db_cursor
 from messages import *
-from util import to_positive_int, is_valid_rating
+from util import to_positive_int, is_valid_rating, format_rating, print_table
 from datetime import datetime
 
 def checkout_DVD():
@@ -166,3 +166,52 @@ def return_and_rate_DVD():
             """, (dvd_id, u_id, rating))
 
     print(MSG_DVD_RETURNED_RATED)
+
+def print_borrowing_status_for_user():
+    user_id_input = input('User ID: ').strip()
+    user_id = to_positive_int(user_id_input)
+    if user_id is None:
+        print(ERR_USER_NOT_EXIST.format(user_id_input))
+        return
+
+    with db_cursor(dictionary=True) as (conn, cursor):
+        # 1. 유저 존재 여부 확인
+        cursor.execute("SELECT 1 FROM user WHERE u_id=%s", (user_id,))
+        if not cursor.fetchone():
+            print(ERR_USER_NOT_EXIST.format(user_id))
+            return
+
+        # 2. 현재 대출중인 DVD 정보 조회 (is_returned=0)
+        cursor.execute("""
+            SELECT
+                d.d_id,
+                d.d_title,
+                d.d_name,
+                d.age_limit,
+                (
+                    SELECT ROUND(AVG(r2.rating), 2)
+                    FROM rate r2
+                    WHERE r2.d_id = d.d_id
+                ) AS avg_rating
+            FROM borrowing b
+            JOIN dvd d ON b.d_id = d.d_id
+            WHERE b.u_id = %s AND b.is_returned = 0
+            ORDER BY d.d_id
+        """, (user_id,))
+
+        rows = []
+        for row in cursor.fetchall():
+            avg_rating = row['avg_rating']
+            avg_rating_str = format_rating(avg_rating) if avg_rating is not None else 'None'
+            rows.append([
+                row['d_id'],
+                row['d_title'],
+                row['d_name'],
+                row['age_limit'],
+                avg_rating_str
+            ])
+
+    headers = ['id', 'title', 'director', 'age_limit', 'avg.rating']
+    print('-' * 80)
+    print_table(headers, rows)
+    print('-' * 80)
