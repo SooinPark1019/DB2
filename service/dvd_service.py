@@ -238,3 +238,49 @@ def remove_DVD():
         cursor.execute("DELETE FROM dvd WHERE d_id = %s", (dvd_id,))
 
     print(MSG_DVD_REMOVE)
+
+def search():
+    query = input('Query: ').strip()
+    if not query:
+        print(ERR_SEARCH_FAIL)
+        return
+
+    with db_cursor(dictionary=True) as (conn, cursor):
+        # 영화 제목에 검색어가 포함된 DVD 검색 (대소문자 무시)
+        # MySQL에서는 기본적으로 LIKE가 case-insensitive이지만, 혹시 모르니 LOWER()로 맞춤
+        search_pattern = f"%{query.lower()}%"
+        cursor.execute("""
+            SELECT
+                d.d_id,
+                d.d_title,
+                d.d_name,
+                d.age_limit,
+                d.stock,
+                AVG(r.rating) AS avg_rating
+            FROM dvd d
+            LEFT JOIN rate r ON d.d_id = r.d_id
+            WHERE LOWER(d.d_title) LIKE %s
+            GROUP BY d.d_id, d.d_title, d.d_name, d.age_limit, d.stock
+            ORDER BY d.d_id
+        """, (search_pattern,))
+
+        rows = []
+        for row in cursor.fetchall():
+            avg_rating = row['avg_rating']
+            avg_rating_str = format_rating(avg_rating) if avg_rating is not None else 'None'
+            rows.append([
+                row['d_id'],
+                row['d_title'],
+                row['d_name'],
+                row['age_limit'],
+                avg_rating_str,
+                row['stock'],
+            ])
+
+    headers = ['id', 'title', 'director', 'age_limit', 'avg.rating', 'stock']
+    print('-' * 80)
+    if rows:
+        print_table(headers, rows)
+    else:
+        print(ERR_SEARCH_FAIL)
+    print('-' * 80)
